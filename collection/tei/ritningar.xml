@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ritningar</title>
+            <author>xxx</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Aftonstjärnan</publisher>
+            <date>2007-2009</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digitaliserade ritningar från ombyggnationen av Aftonstjärnan, 2007-2009.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface xml:id="bygglovshandling_20081203">
+         <figure>
+            <label>Bygglovshandling 2008-12-03</label>
+            <figDesc>Bygglovshandling från 2008-12-03.</figDesc>
+            <graphic url="assets/img/documents/bygglovshandling_20081203.jpeg"/>
+         </figure>
+      </surface>
+      <surface xml:id="planlösning_med_mått_n.d">
+         <figure>
+            <label>Planlösning med mått</label>
+            <figDesc>Planlösning med mått</figDesc>
+            <graphic url="assets/img/documents/planlosning_med_matt_n.d.jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="page" facs="#bygglovshandling_20081203">
+            <p>Transkription av sida 1</p>
+         </div>
+         <div type="page" facs="#planlösning_med_mått_n.d">
+            <p>Transkription av sida 2</p>
+         </div>
+      </body>
+   </text>
+</TEI>

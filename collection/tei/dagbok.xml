@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dagbok ombyggnation</title>
+            <author>Lolo Jakobsson</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Aftonstjärnan</publisher>
+            <date>2009</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digitaliserad dagbok från ombyggnationen av Aftonstjärnan, 2009.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface xml:id="sida1">
+         <figure>
+            <label>Framsida</label>
+            <figDesc>Första sidan i dagboken, framsidan.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_2009_framsida.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sida2">
+         <figure>
+            <label>2009-04-20</label>
+            <figDesc>Dagboksanteckning från 20 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="page" facs="#sida1">
+            <head>dAgbok</head>
+         </div>
+         <div type="page" facs="#sida2">
+            <head>Måndag 20 april</head>
+               <p>Etablering av ”rivare” på plats . BORRELIT
+               <lb/>SKYDDSROND med FP och riventreprenör
+               <lb/>Dannes installationer stänger av el. i trapphuset
+               <lb/><add place="below">mot gården</add>
+               <lb/>BN fotodokumentation av gård och trapphus
+               </p>
+         </div>
+      </body>
+   </text>
+</TEI>
