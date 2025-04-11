@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<galleri xmlns="http://www.tei-c.org/ns/1.0">
+  <ritning>
+    <id>bygglovshandling_20081203</id>
+    <file>bygglovshandling_20081203.xml</file>
+    <img>assets/img/documents/bygglovshandling_20081203.jpeg</img>
+    <link>bygglovshandling_20081203.html</link>
+  </ritning>
+
+  <ritning>
+    <id>planlosning_med_matt_n.d</id>
+    <file>planlosning_med_matt_n.d.xml</file>
+    <img>assets/img/documents/planlosning_med_matt_n.d.jpeg</img>
+    <link>planlosning_med_matt_n.d.html</link>
+  </ritning>
+  <!-- Lägg till fler ritningar här -->
+</galleri>

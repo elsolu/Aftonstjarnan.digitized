@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ritning</title>
+            <author>xxx</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Aftonstjärnan</publisher>
+            <date>2007-2009</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Digitaliserade ritningar från ombyggnationen av Aftonstjärnan, 2007-2009.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface xml:id="planlosning_med_matt_n.d.jpeg">
+         <figure>
+            <label>Planlösning med mått</label>
+            <figDesc>Planlösning med mått.</figDesc>
+            <graphic url="assets/img/documents/planlosning_med_matt_n.d.jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="page" facs="#planlosning_med_matt_n.d.jpeg">
+            <p>Transkription av sida 1</p>
+         </div>
+      </body>
+   </text>
+</TEI>

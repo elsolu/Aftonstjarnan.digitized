@@ -77,3 +77,30 @@ footer {
     width: 500px;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .gallery li {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.03);
+  }
+  
