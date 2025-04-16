@@ -27,6 +27,8 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_2009_framsida.png"/>
          </figure>
       </surface>
+
+      <!-- SIDA TVÅ -->
       <surface xml:id="sida2">
          <figure>
             <label>2009-04-20</label>
@@ -34,13 +36,30 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.png"/>
          </figure>
       </surface>
+
+       <!-- SIDA TRE -->
+
+      <surface xml:id="sida3">
+         <figure>
+            <label>2009-04-20</label>
+            <figDesc>Dagboksanteckning från 21 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.png"/>
+         </figure>
+      </surface>
+
+
    </facsimile>
 
    <text>
       <body>
+
+
          <div type="page" facs="#sida1">
             <head>dAgbok</head>
          </div>
+
+   <!-- SIDA TVÅ -->
+    
          <div type="page" facs="#sida2">
             <head>Måndag 20 april</head>
                <p>Etablering av ”rivare” på plats . BORRELIT
@@ -50,6 +69,22 @@
                <lb/>BN fotodokumentation av gård och trapphus
                </p>
          </div>
+
+    <!-- SIDA TRE -->
+
+    <div type="page" facs="#sida3">
+      <head>Tisdag 21 april</head>
+         <p>
+            <lb/>Rivningsarbetet påbörjat		               Bygglovet i brevlådan
+            <lb/>Thomas m. lärling kopplat bort radiator och vattenutkastare
+            <lb/>Taktassar och dörrar från förrådet räddade
+            
+                                          <lb/>Nyanlagd byggväg via granntomten
+
+         </p>
+   </div>
+
+
       </body>
    </text>
 </TEI>
