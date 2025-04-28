@@ -20,6 +20,8 @@
    </teiHeader>
 
    <facsimile>
+
+   <!-- SIDA ETT -->
       <surface xml:id="sida1">
          <figure>
             <label>Framsida</label>
@@ -28,7 +30,7 @@
          </figure>
       </surface>
 
-      <!-- SIDA TVÅ -->
+   <!-- SIDA TVÅ -->
       <surface xml:id="sida2">
          <figure>
             <label>2009-04-20</label>
@@ -37,13 +39,12 @@
          </figure>
       </surface>
 
-       <!-- SIDA TRE -->
-
+   <!-- SIDA TRE -->
       <surface xml:id="sida3">
          <figure>
             <label>2009-04-20</label>
             <figDesc>Dagboksanteckning från 21 april 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.png"/>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090421.jpeg"/>
          </figure>
       </surface>
 
@@ -53,6 +54,7 @@
    <text>
       <body>
 
+   <!-- SIDA ETT -->
 
          <div type="page" facs="#sida1">
             <head>dAgbok</head>
@@ -75,12 +77,12 @@
     <div type="page" facs="#sida3">
       <head>Tisdag 21 april</head>
          <p>
-            <lb/>Rivningsarbetet påbörjat		               Bygglovet i brevlådan
-            <lb/>Thomas m. lärling kopplat bort radiator och vattenutkastare
-            <lb/>Taktassar och dörrar från förrådet räddade
-            
-                                          <lb/>Nyanlagd byggväg via granntomten
-
+            <lb/>Rivningsarbetet påbörjat	<space quantity="30" unit="character"/> Bygglovet i brevlådan
+            <lb/>Thomas m. lärling kopplat bort radiator och vattenutkastare 
+            <lb/>Taktassar och dörrar från förrådet räddade <graphic url="placeholder"/>
+            <lb/><graphic url="placeholder"/>
+            <space quantity="2" unit="line"/> 
+            <lb/><graphic url="placeholder"/><space quantity="10" unit="character"/>Nyanlagd byggväg via granntomten
          </p>
    </div>
 

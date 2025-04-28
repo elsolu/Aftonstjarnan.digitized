@@ -104,3 +104,17 @@ footer {
     transform: scale(1.03);
   }
   
+  .zoom-container {
+    display: flex;
+    align-items: start;
+    gap: 20px; /* Avstånd mellan bild och zoomfönster */
+  }
+
+  #zoom-image {
+    max-width: 500px; /* Begränsa hur stor bilden kan bli */
+    width: 100%;
+    height: auto;
+  }
+
+
+  

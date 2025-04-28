@@ -6,21 +6,26 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
-   </head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/css/elevatezoom.min.css"><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script></head>
    <body>
       <header>
-         <h1>Bygglovshandling 2008-12-03</h1>
+         <h1>
+            Aftonstjärnan
+          </h1>
       </header>
-      <nav id="sitenav" class="container mb-4">
-        <a href="index.html">Hem</a> |
-        <a href="dagbok.html">Dagbok ombyggnation</a> |
-        <a href="ritningar.html">Ritningar</a> |
-        <a href="galleri.html">Galleri</a>
-    </nav>
+      <nav id="sitenav" class="container mb-4"><a href="index.html">Hem</a> |
+            <a href="dagbok.html">Dagbok ombyggnation</a> |
+            <a href="ritningar.html">Ritningar</a> |
+            <a href="galleri.html">Galleri</a></nav>
+      <h2>Bygglovshandling 2008-12-03</h2>
       <main class="container">
          <div class="row">
-            <div class="col"><img class="img-fluid" src="assets/img/documents/bygglovshandling_20081203.jpeg" alt="Bygglovshandling 2008-12-03"><p class="description">Bygglovshandling från 2008-12-03.</p>
-               <h2>Transkription</h2>
+            <div class="col">
+               <div class="zoom-container">
+                  <div class="image-wrapper"><img id="zoom-image" src="assets/img/documents/bygglovshandling_20081203.jpeg" alt="Bygglovshandling 2008-12-03" data-zoom-image="assets/img/documents/bygglovshandling_20081203.jpeg"></div>
+               </div>
+               <p class="description mt-3">Bygglovshandling från 2008-12-03.</p>
+               <h2>Beskrivning</h2>
                <div class="transcription">
                   <p>Transkription av sida 1</p>
                </div>
@@ -29,8 +34,20 @@
       </main>
       <footer>
          <div class="row" id="footer">
-            <div class="col-sm"><a href="galleri.html">Tillbaka till galleriet</a></div>
+            <div class="col-sm"><a href="toplayer.html">Tillbaka till galleriet</a></div>
          </div>
-      </footer>
-   </body>
+      </footer><script type="text/javascript">
+          $(document).ready(function() {
+            $('#zoom-image').elevateZoom({
+              zoomType: "window",
+              zoomWindowWidth: 350,
+              zoomWindowHeight: 350,
+              zoomWindowOffset: 150,              
+              zoomWindowPosition: 1,
+              cursor: "crosshair",
+              zoomLensFadeIn: 300,
+              zoomLensFadeOut: 300,
+         });
+          });
+        </script></body>
 </html>

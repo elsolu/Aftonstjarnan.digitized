@@ -6,31 +6,26 @@
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-  <!-- Huvudmall för hela sidan -->
   <xsl:template match="/">
     <html lang="sv" xml:lang="sv">
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>
-          <!-- Hämtar etiketten för den första ritningen -->
           <xsl:value-of select="//tei:surface[1]/tei:figure/tei:label"/>
         </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="assets/css/desktop.css"/>
-
-        <!-- Lägg till ElevateZoom CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/css/elevatezoom.min.css" />
-
-        <!-- Lägg till jQuery (krävs för ElevateZoom) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/css/elevatezoom.min.css"/>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
+
       </head>
+
       <body>
         <header>
           <h1>
-            <!-- Hämtar etiketten för den första ritningen -->
-            <xsl:value-of select="//tei:surface[1]/tei:figure/tei:label"/>
+            Aftonstjärnan
           </h1>
         </header>
 
@@ -41,25 +36,30 @@
             <a href="galleri.html">Galleri</a>
         </nav>
 
+        <h2>
+          <xsl:value-of select="//tei:surface[1]/tei:figure/tei:label"/>
+        </h2>
+
+           <!-- BILD + ZOOM -->
         <main class="container">
           <div class="row">
             <div class="col">
-              <!-- Lägg till en div runt bilden för zoom-effekten -->
               <div class="zoom-container">
-                <!-- Hämtar bildens URL för den första ritningen -->
-                <img id="zoom-image" class="img-fluid"
-                     src="{//tei:surface[1]/tei:figure/tei:graphic/@url}"
-                     alt="{//tei:surface[1]/tei:figure/tei:label}"
-                     data-zoom-image="{//tei:surface[1]/tei:figure/tei:graphic/@url}"/>
+                <div class="image-wrapper">
+                  <img id="zoom-image"
+                       src="{//tei:surface[1]/tei:figure/tei:graphic/@url}"
+                       alt="{//tei:surface[1]/tei:figure/tei:label}"
+                       data-zoom-image="{//tei:surface[1]/tei:figure/tei:graphic/@url}"/>
+                </div>
               </div>
-              <p class="description">
-                <!-- Hämtar beskrivningen för den första ritningen -->
+
+              <p class="description mt-3">
                 <xsl:value-of select="//tei:surface[1]/tei:figure/tei:figDesc"/>
               </p>
 
-              <!-- Om det finns en transkription för denna ritning -->
+              <!-- BESKRIVNING? -->
               <xsl:if test="//tei:div[@facs = concat('#', //tei:surface[1]/@xml:id)]">
-                <h2>Transkription</h2>
+                <h2>Beskrivning</h2>
                 <div class="transcription">
                   <xsl:apply-templates select="//tei:div[@facs = concat('#', //tei:surface[1]/@xml:id)]"/>
                 </div>
@@ -76,14 +76,18 @@
           </div>
         </footer>
 
-        <!-- Lägg till jQuery och ElevateZoom JS för att aktivera zoom -->
+        <!-- ZOOM -->
         <script type="text/javascript">
           $(document).ready(function() {
             $('#zoom-image').elevateZoom({
-              zoomType: "inner",   // Typ av zoom (t.ex., "inner" eller "lens")
-              cursor: "crosshair", // Visa korshår för pekaren när man hovrar över bilden
-              zoomWindowFadeIn: 500, // Effekt när zoomfönstret visas
-              zoomWindowFadeOut: 500 // Effekt när zoomfönstret försvinner
+              zoomType: "window",
+              zoomWindowWidth: 350,
+              zoomWindowHeight: 350,
+              zoomWindowOffset: 150,              
+              zoomWindowPosition: 1,
+              cursor: "crosshair",
+              zoomLensFadeIn: 300,
+              zoomLensFadeOut: 300
             });
           });
         </script>
@@ -91,7 +95,7 @@
     </html>
   </xsl:template>
 
-  <!-- Enkel hantering av transkription -->
+  <!-- TRANSKRIPTION -->
   <xsl:template match="tei:p">
     <p><xsl:value-of select="."/></p>
   </xsl:template>
