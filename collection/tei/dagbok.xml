@@ -47,7 +47,16 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090421.jpeg"/>
          </figure>
       </surface>
+   
 
+    <!-- SIDA TRETTIO -->
+ <surface xml:id="sida30">
+         <figure>
+            <label>2009-06-10-12</label>
+            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090610-12.jpeg"/>
+         </figure>
+      </surface>
 
    </facsimile>
 
@@ -84,6 +93,34 @@
             <space quantity="2" unit="line"/> 
             <lb/><graphic url="placeholder"/><space quantity="10" unit="character"/>Nyanlagd byggväg via granntomten
          </p>
+   </div>
+
+
+
+   <!-- SIDA TRETTIO hur gör vi med indrag?-->
+
+<div type="page" facs="#sida30">
+      <head>Onsdag 10 juni</head>
+         <p>
+           <lb/>Regn, Regn och Regn.
+           <lb/>Muren blir putsbelagd med ett första påslag
+         </p>
+
+         <head>Torsdag 11 juni</head>
+         <p>
+            <lb/>Roy, Sebbe o. Mikael slätputsar insidan av muren.
+            <lb/>Lolo o Bertil målar träfasaden en andra gång samt fönstren 1 ggr
+            <lb/>På kvällen skrapar Yngve, Tomas och Erica färdigt i porten.
+            <lb/>Lolo putslagar skador i fasaden, Bertil spacklar fönstren
+         </p>
+
+      <graphic url="placeholder"/><graphic url="placeholder"/>
+      <head>Fredag 12 juni</head>
+      <p>
+      <lb/>Regn med mycket vindar 
+      <lb/>hela dagen.
+
+      </p>
    </div>
 
 
