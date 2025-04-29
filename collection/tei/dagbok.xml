@@ -26,7 +26,7 @@
          <figure>
             <label>Framsida</label>
             <figDesc>Första sidan i dagboken, framsidan.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_2009_framsida.png"/>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_2009_framsida.jpeg"/>
          </figure>
       </surface>
 
@@ -35,16 +35,146 @@
          <figure>
             <label>2009-04-20</label>
             <figDesc>Dagboksanteckning från 20 april 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.png"/>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090420.jpeg"/>
          </figure>
       </surface>
 
    <!-- SIDA TRE -->
       <surface xml:id="sida3">
          <figure>
-            <label>2009-04-20</label>
+            <label>2009-04-21</label>
             <figDesc>Dagboksanteckning från 21 april 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090421.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA FYRA -->
+
+      <surface xml:id="sida4">
+         <figure>
+            <label>2009-04-22</label>
+            <figDesc>Dagboksanteckning från 22 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090422.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA FEM -->
+
+      <surface xml:id="sida5">
+         <figure>
+            <label>2009-04-23</label>
+            <figDesc>Dagboksanteckning från 23 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090423.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA SEX -->
+
+      <surface xml:id="sida6">
+         <figure>
+            <label>2009-04-24</label>
+            <figDesc>Dagboksanteckning från 24 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090424.jpeg"/>
+         </figure>
+      </surface>
+
+     <!-- SIDA SJU -->
+
+      <surface xml:id="sida7">
+         <figure>
+            <label>2009-04-27</label>
+            <figDesc>Dagboksanteckning från 27 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090427.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA ÅTTA -->
+
+      <surface xml:id="sida8">
+         <figure>
+            <label>2009-04-28</label>
+            <figDesc>Dagboksanteckning från 28 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090428.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA NIO -->
+
+      <surface xml:id="sida9">
+         <figure>
+            <label>2009-04-29/30</label>
+            <figDesc>Dagboksanteckning från 29 och 30 april 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090429-30.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA TIO -->
+
+      <surface xml:id="sida10">
+         <figure>
+            <label>2009-05-04</label>
+            <figDesc>Dagboksanteckning från 4 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090504.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA ELVA -->
+
+      <surface xml:id="sida11">
+         <figure>
+            <label>2009-05-05</label>
+            <figDesc>Dagboksanteckning från 5 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090505.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA TOLV -->
+
+      <surface xml:id="sida12">
+         <figure>
+            <label>2009-05-06</label>
+            <figDesc>Dagboksanteckning från 6 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090506.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA TRETTON -->
+
+      <surface xml:id="sida13">
+         <figure>
+            <label>2009-05-07</label>
+            <figDesc>Dagboksanteckning från 7 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090507.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA FJORTON -->
+      
+      <surface xml:id="sida14">
+         <figure>
+            <label>2009-05-11/12</label>
+            <figDesc>Dagboksanteckning från 11 och 12 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090511-12.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA FEMTON -->
+      
+      <surface xml:id="sida15">
+         <figure>
+            <label>2009-05-13</label>
+            <figDesc>Dagboksanteckning från 13 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090513.jpeg"/>
+         </figure>
+      </surface>
+
+      <!-- SIDA SEXTON -->
+      
+      <surface xml:id="sida16">
+         <figure>
+            <label>2009-05-14/15/18</label>
+            <figDesc>Dagboksanteckning från 14-15 och 18 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090514-15_18.jpeg"/>
          </figure>
       </surface>
    
@@ -74,27 +204,245 @@
          <div type="page" facs="#sida2">
             <head>Måndag 20 april</head>
                <p>Etablering av ”rivare” på plats . BORRELIT
+               <lb/>
                <lb/>SKYDDSROND med FP och riventreprenör
+               <lb/>
                <lb/>Dannes installationer stänger av el. i trapphuset
                <lb/><add place="below">mot gården</add>
+               <lb/>
                <lb/>BN fotodokumentation av gård och trapphus
                </p>
          </div>
 
-    <!-- SIDA TRE -->
+   <!-- SIDA TRE -->
 
-    <div type="page" facs="#sida3">
-      <head>Tisdag 21 april</head>
-         <p>
-            <lb/>Rivningsarbetet påbörjat	<space quantity="30" unit="character"/> Bygglovet i brevlådan
-            <lb/>Thomas m. lärling kopplat bort radiator och vattenutkastare 
-            <lb/>Taktassar och dörrar från förrådet räddade <graphic url="placeholder"/>
-            <lb/><graphic url="placeholder"/>
+         <div type="page" facs="#sida3">
+            <head>Tisdag 21 april</head>
+               <p>Rivningsarbetet påbörjat	<space quantity="30" unit="character"/> Bygglovet i brevlådan
+               <lb/>
+               <lb/>Thomas m. lärling kopplat bort radiator och vattenutkastare 
+               <lb/>
+               <lb/>Taktassar och dörrar från förrådet räddade <graphic url="placeholder"/>
+               <lb/><lb/><graphic url="placeholder"/>
             <space quantity="1" unit="line"/> 
             <lb/><graphic url="placeholder"/><space quantity="10" unit="character"/>Nyanlagd byggväg via granntomten
-         </p>
-   </div>
+               </p>
+         </div>
 
+   <!-- SIDA FYRA Tecknade bilder på denna sida -->
+
+         <div type="page" facs="#sida4">
+            <head>Ons. 22/4</head>
+               <p>Rivning av murstock -
+               <lb/>den är delvis inmurad i
+               <lb/>bef. yttervägg
+               <lb/>Hål i yttertak i salongen som 
+               <lb/>tillfälligt tätas med papp.
+               <lb/>Inmätning av blivande stål – och
+               <lb/>glas.
+               <lb/>
+                                 <lb/>8804 öh glas
+                                 <lb/>8302 öh balk (240 mm)
+               </p>
+         </div>
+
+   <!-- SIDA FEM Bilder på olika ställen + ritning med anteckningar -->
+
+         <div type="page" facs="#sida5">
+            <head>Torsdag 23/4</head>
+               <lb/>
+               <p>Ständiga kontroller
+               <lb/>
+               <lb/>Nedsågning av trapphusets bortre vägg
+               <lb/>
+               <lb/>Trapphuset förstärkt med stålbalk
+               </p>
+         </div>
+
+   <!-- SIDA SEX Bild & text på olika ställen-->
+
+         <div type="page" facs="#sida6">
+            <head>Fredag 24/4</head>
+               <p>Strålande väder med utslagna träd
+               <lb/>och mycket pollen.
+               <lb/>
+               <lb/>Trapphuset sågas isär med ”storklingan”.
+               <lb/>Lolo o. Bertil mäter och räknar för
+               <lb/>att hissen skall få plats med rätt
+               <lb/>utrymningsmått!				
+               <lb/>
+                                       <lb/>Ny entré till B-salen
+               <lb/>
+                                       <lb/>Källartrappa adjö
+               </p>
+         </div>
+
+   <!-- SIDA SJU Vad ska räknas in i rubriken, bara datumet eller hela raden? + Text på olika platser-->
+
+         <div type="page" facs="#sida7">
+            <head>Mån. 27/4</head>
+               <p>Veckan börjar med Byggsamråd hos kommunen.
+               <lb/>Rickard Eld, Bernt Flodihn, Lolo, Bertil. Det mesta går bra men 2 punkter måste
+               <lb/>ses över: 1. Avvattning av glastak 2. Brandklassning av stålkonstruktion
+               <lb/>
+               <lb/>Rivningen intensifieras!		Eftermiddagsmöte med sprinklerkonsult, NVS
+               <lb/>
+					                                          <lb/>Öppning från trapphus till C-sal muras igen.
+               </p>
+         </div>
+
+   <!-- SIDA ÅTTA Här slutar jag skriva att texten är placerad på olika ställen för det blir så tjatigt.
+      Det gäller ju typ alla sidor ändå :) /Maja-->
+
+         <div type="page" facs="#sida8">
+            <head>TISDAG 28/4</head>
+               <p>Rivning av rest. Trapphusvägg och murstock. LoB. Plockar 350 tegel-
+               <lb/>stenar som kan användas för ilagning av mur mot fasad. 
+               <lb/>Tog fram utformning av trappräcke tillsammans med Erik S. / SG.
+               <lb/>Träff med Godhemsgatans plåt för ilagning av plåttak och ändring
+               <lb/>av stuprörsläge + ståndränna. Plåt skall lämna pris för åtgärd.
+               <lb/>Telefonkontakt med Ingvar Svensson/Brandskyddskonsulterna ang. 
+               <lb/>brandklass stålkonstr. Krav på R60 /alt. R30 vid skyddssprinkling.
+               <lb/>Förhandling på torsdag f.m om lägre brandkrav (än R30) för vi
+               <lb/>kan åstadkomma brandgasventilation via gavlarna.
+               <lb/>
+					                              <lb/>Bef. trappräcke i trapphuset.
+               </p>
+         </div>
+
+   <!-- SIDA NIO Parentes runt två rader ("Inga krav på stålet"), möjligt att koda?-->
+
+         <div type="page" facs="#sida9">
+            <head>ONS och TORS 20 - 30/4</head>
+               <p>Varmt 25ºC och hög luft med utslagna björkar och
+               <lb/>både hägg och syren pågång.
+               <lb/>Fortsatta rivningar och bortforsling av material.
+	         	            <lb/>Möte med Ingvar Svensson, Brandskyddskonsulenterna
+		                     <lb/>och ES, S6 eller SS., ang. brandklassning av 
+		                     <lb/>stålkonstruktion m.m.
+		                     <lb/>Krav på sprinklers i hela foajén samt
+		                     <lb/>stoppsprinklers
+                           <lb/>inne i B-salen
+                           <lb/>i öppningar 
+                           <lb/>ut mot foajén.
+                           <lb/>(Inga krav på
+                           <lb/>stålet!)
+                           <lb/>
+                                       <lb/>Nyöppning till B-salen
+                           <lb/>
+               <lb/>En gammal ingång till
+               <lb/>trapphuset på gården mot öster, steg av helheten
+			      <lb/>kom fram 
+               </p>
+         </div>
+
+   <!-- SIDA TIO -->
+
+         <div type="page" facs="#sida10">
+            <head>Måndag 4 maj.</head>
+               <p>Mulen morgon – men med mycket vind sprack himmelen upp och blev
+               <lb/>blå med flödande sol – kalla vindar. 
+               <lb/>Bröderna Olsén etablerade sig, ett lass makadam kom 
+               <lb/>och lades ut som grund för nytt bjälklag av betong.
+               <lb/>
+                                          <lb/>Trappinfästningar i det
+					                           <lb/>utrivna trapphuset.
+               </p>
+         </div>
+
+   <!-- SIDA ELVA Här känns det som att "halva" radavstånd hade varit bäst mellan de första tre styckena-->
+
+         <div type="page" facs="#sida11">
+            <head>TISDAG 5 maj</head>
+               <p>DIMA VVS, rörläggare Tomas
+               <lb/>la ner spillvattenledningar för 
+               <lb/>toaletten i bottenvåningen.
+
+               <lb/>Danne, elektrikern, gick igenom
+               <lb/>tider för sitt arbete tills. med
+               <lb/>Pär J. Danne börjar om 2 veckor
+               <lb/>innan gjutning av plattan.
+
+               <lb/>Kantbalken ligger för nära bef.
+               <lb/>kallmur för att man skall få plats
+               <lb/>med kantisolering. Beslut tas
+               <lb/>att riva denna.	                  Genomgång via en ventil i
+					                                       källaren
+               <lb/>
+               <lb/>Inmätning av kantbalken	         Nya wc ute på gården		Handikappwc’t i trapp-
+								                                                      huset
+               </p>
+         </div>
+
+   <!-- SIDA TOLV -->
+    
+         <div type="page" facs="#sida12">
+            <head>ONSDAG 6 MAJ</head>
+               <p>Ihållande regn fram till lunch – sol o. blåst
+               <lb/>Kallmuren mot grannen bortgrävd, drän. nedlagd o. övergrusad liksom
+               <lb/>stuprörsledningen till bef. brunn.
+               <lb/>
+               <lb/>drän. o. stuprör i plattan
+               <lb/>
+               <lb/>Skiss dränering utmed kantbalk		Skiss – mått väggar nya wc-gården
+               </p>
+         </div>
+
+   <!-- SIDA TRETTON -->
+    
+         <div type="page" facs="#sida13">
+            <head>TORSDAG 7 MAJ</head>
+               <p>Regn, regn, regn fram till 2-tiden – se’n kom solen
+               <lb/>Br. Olsén lägger färdigt makadam upp till nivå med
+               <lb/>frigolite.
+               <lb/>
+               <lb/>makadam på hela gården			portgång med lutning 1:10 – går bra!
+               </p>
+         </div>
+
+   <!-- SIDA FJORTON -->
+    
+         <div type="page" facs="#sida14">
+            <head>Mån – tis 11–12 maj</head>
+               <p>Betong – och markisol. påbörjas.! (LJ o. BN i Berlin och ser CEA.)
+               <lb/>
+                                          <lb/>Carl-Einar mit Puzzleträume på      
+                                          <lb/>Scheinbar varité i Berlin
+               <lb/>
+               <lb/>kantelementen / på plats			
+               </p>
+         </div>        
+
+   <!-- SIDA FEMTON -->
+    
+         <div type="page" facs="#sida15">
+            <head>Onsdag 13 maj</head>
+               <p>Fortsatt markisolering
+               <lb/>görs i skarpt solsken.
+               <lb/>
+                                          <lb/>🡨 form
+                                          <lb/>🡨kantisol.			
+               <lb/>
+               <lb/>Ett lager frigolite/markisol. på plats
+               <lb/>
+						                        <lb/>VA-ritning/grundplan
+               </p>
+         </div>  
+           
+      <!-- SIDA SEXTON -->
+    
+         <div type="page" facs="#sida16">
+            <head>tors – fre 14-15 maj </head>
+               <p>arbetet med läggning av frigoliteplattor
+               <lb/>på gården.	 
+               <lb/>
+               <lb/>Måndag 18 maj
+               <lb/>Färgprov på bef. putsfärg lämnades in
+               <lb/>för färgprov KC-färg. Hydralitfärg
+               <lb/>
+               <lb/>Armering av kantbalkar påbörjas idag	
+               </p>
+         </div> 
 
 
    <!-- SIDA TRETTIO hur gör vi med indrag?-->
