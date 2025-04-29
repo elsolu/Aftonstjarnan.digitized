@@ -100,27 +100,34 @@
    <!-- SIDA TRETTIO hur gör vi med indrag?-->
 
 <div type="page" facs="#sida30">
-      <head>Onsdag 10 juni</head>
+      <div><head>Onsdag 10 juni</head>
          <p>
            <lb/>Regn, Regn och Regn.
            <lb/>Muren blir putsbelagd med ett första påslag
          </p>
+      </div>
 
-         <head>Torsdag 11 juni</head>
+      <div> <head>Torsdag 11 juni</head>
          <p>
             <lb/>Roy, Sebbe o. Mikael slätputsar insidan av muren.
             <lb/>Lolo o Bertil målar träfasaden en andra gång samt fönstren 1 ggr
             <lb/>På kvällen skrapar Yngve, Tomas och Erica färdigt i porten.
             <lb/>Lolo putslagar skador i fasaden, Bertil spacklar fönstren
          </p>
+      </div>
 
-      <graphic url="placeholder"/><graphic url="placeholder"/>
+      <div>
+      <p><graphic url="placeholder"/><graphic url="placeholder"/></p>
+      </div>
+      
+      <div> 
       <head>Fredag 12 juni</head>
       <p>
       <lb/>Regn med mycket vindar 
       <lb/>hela dagen.
-
       </p>
+      </div>
+  
    </div>
 
 
