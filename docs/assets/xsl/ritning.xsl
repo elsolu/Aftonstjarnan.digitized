@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/css/elevatezoom.min.css"/>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
+        
+
 
       </head>
 
@@ -40,7 +42,7 @@
           <xsl:value-of select="//tei:surface[1]/tei:figure/tei:label"/>
         </h2>
 
-           <!-- BILD + ZOOM -->
+        <!-- BILD + ZOOM -->
         <main class="container">
           <div class="row">
             <div class="col">
@@ -71,7 +73,7 @@
         <footer>
           <div class="row" id="footer">
             <div class="col-sm">
-              <a href="toplayer.html">Tillbaka till galleriet</a>
+              <a href="galleri.html">Tillbaka till galleriet</a>
             </div>
           </div>
         </footer>
@@ -83,7 +85,7 @@
               zoomType: "window",
               zoomWindowWidth: 350,
               zoomWindowHeight: 350,
-              zoomWindowOffset: 150,              
+              zoomWindowOffset: 250, 
               zoomWindowPosition: 1,
               cursor: "crosshair",
               zoomLensFadeIn: 300,
@@ -95,9 +97,5 @@
     </html>
   </xsl:template>
 
-  <!-- TRANSKRIPTION -->
-  <xsl:template match="tei:p">
-    <p><xsl:value-of select="."/></p>
-  </xsl:template>
 
 </xsl:stylesheet>

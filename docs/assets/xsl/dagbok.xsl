@@ -29,54 +29,80 @@
                     <a href="galleri.html">Galleri</a>
                 </nav>
 
-                <main class="container mb-5">
-                    <div id="teiCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
-                            <xsl:for-each select="//tei:div[@type='page']">
-                                <xsl:variable name="facs" select="@facs"/>
-                                <div class="carousel-item">
-                                    <div class="d-flex align-items-center justify-content-center position-relative" style="min-height: 600px;">
+            
+                <div class="container-fluid">
+                    <div class="row">
 
-                                        <!-- Vänster pil -->
-                                        <a class="carousel-control-prev" href="#teiCarousel" role="button" data-slide="prev"
-                                           style="position: absolute; left: 10px; z-index: 10;">
-                                            <i class="fas fa-chevron-left fa-3x" style="color: black;"></i>
-                                        </a>
-
-                                        <!-- Bild -->
-                                        <img class="img-fluid mx-auto d-block" style="max-width: 80%">
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
-
-                                        <!-- Höger pil -->
-                                        <a class="carousel-control-next" href="#teiCarousel" role="button" data-slide="next"
-                                           style="position: absolute; right: 10px; z-index: 10;">
-                                            <i class="fas fa-chevron-right fa-3x" style="color: black;"></i>
-                                        </a>
-
-                                    </div>
-
-                                    <!-- Transkription -->
-                                    <div class="d-flex justify-content-center mt-3 px-3">
-                                        <div style="max-width: 800px; text-align: left;">
-                                            <article class="transcription">
-                                                <xsl:apply-templates select="."/>
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                            </xsl:for-each>
+                        <!-- Meny -->
+                        <div class="col-md-2" style="max-width: 150px;">
+                            <div class="list-group overflow-auto" style="max-height: 80vh;">
+                                <xsl:for-each select="//tei:div[@type='page']">
+                                    <xsl:variable name="index" select="position() - 1"/>
+                                    <xsl:variable name="facs" select="@facs"/>
+                                    <a href="#" class="list-group-item list-group-item-action text-center px-1"
+                                       style="border: none;" data-target="#teiCarousel" data-slide-to="{$index}">
+                                        <img class="img-fluid mb-1"
+                                             style="max-height: 60px; max-width: 100%; object-fit: contain;"
+                                             src="{//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url}"
+                                             alt="Miniatyr för sida {$index + 1}"/>
+                                        <div style="font-size: 0.85em;">Sida <xsl:value-of select="position()"/></div>
+                                    </a>
+                                </xsl:for-each>
+                            </div>
                         </div>
-                     </div>
-                </main>
+
+                        <!-- Dagbok -->
+                        <main class="col-md-10 mb-5">
+                            <div id="teiCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="carousel-inner">
+                                    <xsl:for-each select="//tei:div[@type='page']">
+                                        <xsl:variable name="facs" select="@facs"/>
+                                        <div class="carousel-item">
+                                            <div class="d-flex align-items-center justify-content-center position-relative" style="min-height: 600px;">
+
+                                                <!-- Vänster pil -->
+                                                <a class="carousel-control-prev" href="#teiCarousel" role="button" data-slide="prev"
+                                                   style="position: absolute; left: 10px; z-index: 10;">
+                                                    <i class="fas fa-chevron-left fa-3x" style="color: black;"></i>
+                                                </a>
+
+                                                <!-- Bild -->
+                                                <img class="img-fluid mx-auto d-block" style="max-width: 80%">
+                                                    <xsl:attribute name="src">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="title">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="alt">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                                    </xsl:attribute>
+                                                </img>
+
+                                                <!-- Höger pil -->
+                                                <a class="carousel-control-next" href="#teiCarousel" role="button" data-slide="next"
+                                                   style="position: absolute; right: 10px; z-index: 10;">
+                                                    <i class="fas fa-chevron-right fa-3x" style="color: black;"></i>
+                                                </a>
+
+                                            </div>
+
+                                            <!-- Transkription -->
+                                            <div class="d-flex justify-content-center mt-3 px-3">
+                                                <div style="max-width: 800px; text-align: left;">
+                                                    <article class="transcription">
+                                                        <xsl:apply-templates select="."/>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </xsl:for-each>
+                                </div>
+                            </div>
+                        </main>
+
+                    </div> <!-- /.row -->
+                </div> <!-- /.container-fluid -->
 
                 <footer class="container">
                     <div class="row" id="footer">
@@ -92,11 +118,10 @@
                     </div>
                 </footer>
 
+                <!-- Scripts -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-
-                <!-- Karusell -->
                 <script>
                     document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector('.carousel-item').classList.add('active');
@@ -106,85 +131,38 @@
         </html>
     </xsl:template>
 
+    <!-- TEI -->
     <xsl:template match="tei:teiHeader"/>
-
-    <!-- Enkel formatering -->
-    <xsl:template match="tei:lb">
-        <br/>
-    </xsl:template>
-
-    <xsl:template match="tei:head">
-        <h2><xsl:apply-templates/></h2>
-    </xsl:template>
-
-    <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
-    </xsl:template>
-
-    <xsl:template match="tei:add">
-        <sup><xsl:apply-templates/></sup>
-    </xsl:template>
-
-    <xsl:template match="tei:hi[@rend='u']">
-        <u><xsl:apply-templates/></u>
-    </xsl:template>
-
+    <xsl:template match="tei:lb"><br/></xsl:template>
+    <xsl:template match="tei:head"><h2><xsl:apply-templates/></h2></xsl:template>
+    <xsl:template match="tei:p"><p><xsl:apply-templates/></p></xsl:template>
+    <xsl:template match="tei:del"><del><xsl:apply-templates/></del></xsl:template>
+    <xsl:template match="tei:add"><sup><xsl:apply-templates/></sup></xsl:template>
+    <xsl:template match="tei:hi[@rend='u']"><u><xsl:apply-templates/></u></xsl:template>
     <xsl:template match="div[@rend='center']">
-        <section style="text-align: center">
-            <xsl:apply-templates/>
-        </section>
+        <section style="text-align: center"><xsl:apply-templates/></section>
     </xsl:template>
-
-
-    <xsl:template match="tei:lb">
-        <br/>
+    <xsl:template match="tei:space">
+        <xsl:choose>
+            <xsl:when test="@unit = 'line'">
+                <div style="{concat('height: ', @quantity, 'em;')}"></div>
+            </xsl:when>
+            <xsl:when test="@unit = 'cm'">
+                <div style="{concat('height: ', @quantity, 'cm;')}"></div>
+            </xsl:when>
+            <xsl:when test="@unit = 'character'">
+                <span>
+                    <xsl:for-each select="1 to xs:integer(@quantity)">
+                        <xsl:text>&#160;</xsl:text>
+                    </xsl:for-each>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span>&#160;</span>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
-
-        <xsl:template match="tei:space">
-            <xsl:choose>
-                <xsl:when test="@unit = 'line'">
-                    <div style="{concat('height: ', @quantity, 'em;')}"></div>
-                </xsl:when>
-                <xsl:when test="@unit = 'cm'">
-                    <div style="{concat('height: ', @quantity, 'cm;')}"></div>
-                </xsl:when>
-                <xsl:when test="@unit = 'character'">
-                    <span>
-                        <xsl:for-each select="1 to xs:integer(@quantity)">
-                            <xsl:text>&#160;</xsl:text> 
-                        </xsl:for-each>
-                    </span>
-                </xsl:when>
-                <xsl:otherwise>
-                    <span><xsl:text>&#160;</xsl:text></span> 
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:template>
-
-
-    <xsl:template match="tei:head">
-        <h2><xsl:apply-templates/></h2>
-    </xsl:template>
-
-    <xsl:template match="tei:p">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
-    </xsl:template>
-
-    <xsl:template match="tei:add">
-        <sup><xsl:apply-templates/></sup>
-    </xsl:template>
-
     <xsl:template match="tei:graphic">
-    <span style="display: inline-block; width: 10px; height: 10px; border: 1px solid black; margin: 0 0.2em; vertical-align: middle;">
-    </span>
-</xsl:template>
-
+        <span style="display: inline-block; width: 10px; height: 10px; border: 1px solid black; margin: 0 0.2em; vertical-align: middle;"></span>
+    </xsl:template>
 </xsl:stylesheet>

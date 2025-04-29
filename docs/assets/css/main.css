@@ -103,18 +103,21 @@ footer {
   .gallery-img:hover {
     transform: scale(1.03);
   }
-  
-  .zoom-container {
-    display: flex;
-    align-items: start;
-    gap: 20px; /* Avstånd mellan bild och zoomfönster */
-  }
 
   #zoom-image {
-    max-width: 500px; /* Begränsa hur stor bilden kan bli */
-    width: 100%;
-    height: auto;
+    width: 700px; /* Gör bilden större, justera gärna efter behov */
+    max-width: 100%;
+    display: block;
+    margin-left: 0; /* Justera bilden så den inte är centrerad */
+  }
+  .zoom-container {
+    text-align: left; /* Justera till vänster */
+    margin-top: 20px;
+    padding-left: 20px; /* Justera avståndet från vänster */
   }
 
-
-  
+  .elevatezoom-window {
+    margin-top: 0 !important; /* Minska eventuellt extra utrymme över zoomfönstret */
+    margin-left: 20px !important; /* Justera detta för att få det att passa bättre */
+    border: 1px solid #ccc !important; /* Lägg till en liten kantlinje om du vill ha det */
+}
