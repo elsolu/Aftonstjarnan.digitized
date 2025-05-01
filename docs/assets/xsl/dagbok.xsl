@@ -165,4 +165,35 @@
     <xsl:template match="tei:graphic">
         <span style="display: inline-block; width: 10px; height: 10px; border: 1px solid black; margin: 0 0.2em; vertical-align: middle;"></span>
     </xsl:template>
+
+
+
+    <xsl:template match="tei:table">
+        <table>
+          <xsl:apply-templates/>
+        </table>
+      </xsl:template>
+      
+      <xsl:template match="tei:row">
+        <tr>
+          <xsl:apply-templates/>
+        </tr>
+      </xsl:template>
+      
+      <xsl:template match="tei:cell">
+        <td>
+          <xsl:apply-templates/>
+        </td>
+      </xsl:template>
+      
+
+<xsl:template match="tei:figure">
+    <div class="figure-container">
+        <figure>
+            <figcaption class="figure-caption">
+                <xsl:value-of select="tei:figDesc"/>
+            </figcaption>
+        </figure>
+    </div>
+</xsl:template>
 </xsl:stylesheet>
