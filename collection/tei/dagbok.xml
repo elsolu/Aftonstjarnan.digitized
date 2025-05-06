@@ -177,6 +177,16 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090514-15_18.jpeg"/>
          </figure>
       </surface>
+   
+   <!-- SIDA TJUGOSEX -->
+
+            <surface xml:id="sida26">
+         <figure>
+            <label>2009-06-03/04</label>
+            <figDesc>Dagboksanteckning från 3-4 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090603-04.jpeg"/>
+         </figure>
+      </surface>
 
    <!-- SIDA TJUGOSJU -->
 
@@ -213,7 +223,7 @@
     <!-- SIDA TRETTIO -->
    <surface xml:id="sida30">
          <figure>
-            <label>2009-06-10-12</label>
+            <label>2009-06-10/11/12</label>
             <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090610-12.jpeg"/>
          </figure>
@@ -474,6 +484,25 @@
                <lb/>Armering av kantbalkar påbörjas idag	
                </p>
          </div> 
+
+      <!-- SIDA TJUGOSEX Bildplaceringar och stora mellanrum måste redigeras-->
+          <div type="page" facs="#sida26">
+            <head>Ons och Tors 3 o 4 juni</head>
+               <p>Nya svetsplattor sätts på plats.
+               <lb/>Roy och SEbbe fortsätter att fylla igen hål i
+               <lb/>murarna och börjar också putsa.
+               <lb/>Muren mot öster börjar resas.
+               </p>
+               <p>
+               <lb/><graphic url="placeholder"/>
+               <lb/>Ytterhörnet med den nya
+               <lb/>svetsplattan
+               <lb/><graphic url="placeholder"/>
+               <lb/>Roy murar upp det 
+               <lb/>första lecablocket.
+               </p>
+         </div>    
+
 
       <!-- SIDA TJUGOSJU rubrik och första delen av första meningen är skriven med annan penna-->
 
