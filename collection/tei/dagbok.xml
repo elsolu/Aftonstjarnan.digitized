@@ -177,6 +177,16 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090514-15_18.jpeg"/>
          </figure>
       </surface>
+   
+   <!-- SIDA TJUGOSEX -->
+
+            <surface xml:id="sida26">
+         <figure>
+            <label>2009-06-03/04</label>
+            <figDesc>Dagboksanteckning från 3-4 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090603-04.jpeg"/>
+         </figure>
+      </surface>
 
             <!-- SIDA SJUTTON -->
       
@@ -212,69 +222,9 @@
       
       <surface xml:id="sida20">
          <figure>
-            <label>2009-05-26</label>
-            <figDesc>Dagboksanteckning från 26 maj 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090526.jpeg"/>
-         </figure>
-      </surface>
-
-            <!-- SIDA TJUGOETT -->
-      
-      <surface xml:id="sida21">
-         <figure>
-            <label>2009-05-27</label>
-            <figDesc>Dagboksanteckning från 27 maj 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090527.jpeg"/>
-         </figure>
-      </surface>
-
-                  <!-- SIDA TJUGOTVÅ -->
-      
-      <surface xml:id="sida22">
-         <figure>
-            <label>2009-05-28</label>
-            <figDesc>Dagboksanteckning från 28 maj 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090528.jpeg"/>
-         </figure>
-      </surface>
-
-                  <!-- SIDA TJUGOTRE -->
-      
-      <surface xml:id="sida23">
-         <figure>
-            <label>2009-05-29</label>
-            <figDesc>Dagboksanteckning från 29 maj 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090529.jpeg"/>
-         </figure>
-      </surface>
-
-                  <!-- SIDA TJUGOFYRA -->
-      
-      <surface xml:id="sida24">
-         <figure>
-            <label>2009-06-01</label>
-            <figDesc>Dagboksanteckning från 1 juni 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090601.jpeg"/>
-         </figure>
-      </surface>
-
-                  <!-- SIDA TJUGOFEM -->
-      
-      <surface xml:id="sida25">
-         <figure>
-            <label>2009-06-02</label>
-            <figDesc>Dagboksanteckning från 2 juni 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090602.jpeg"/>
-         </figure>
-      </surface>
-
-                  <!-- SIDA TJUGOSEX -->
-      
-      <surface xml:id="sida26">
-         <figure>
-            <label>2009-06-03/04</label>
-            <figDesc>Dagboksanteckning från 3 och 4 juni 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090603-04.jpeg"/>
+            <label>2009-06-10/11/12</label>
+            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090610-12.jpeg"/>
          </figure>
       </surface>
 
@@ -589,22 +539,33 @@
                </p>
          </div> 
 
-            <!-- SIDA SJUTTON -->
-    
-         <div type="page" facs="#sida17">
-            <head>Tis 19 maj</head>
-               <p>Kantbalkar najas ihop o. sättes på plats
-               <lb/>Danne (Elektr.) drar elrör i plattan.
-               <lb/>Rörläggare lägger golvvärme. 		Sol på morgonen med skurar
-                                                                  <lb/>under e.m.
-               <lb/>Urtag i frigoliten för
-               <lb/>svetsplattorna. 		         Kantbalken (pilar till bild)	
-               <lb/>
-				   <lb/>i ytter-
-				   <lb/>hörn
-               <lb/>
-               <lb/>Kantbalken mot Bostadsbolaget	Danne förbereder för dragning av
-					                                    <lb/>elen i gammal rökkanal 
+      <!-- SIDA TJUGOSEX Bildplaceringar och stora mellanrum måste redigeras-->
+          <div type="page" facs="#sida26">
+            <head>Ons och Tors 3 o 4 juni</head>
+               <p>Nya svetsplattor sätts på plats.
+               <lb/>Roy och SEbbe fortsätter att fylla igen hål i
+               <lb/>murarna och börjar också putsa.
+               <lb/>Muren mot öster börjar resas.
+               </p>
+               <p>
+               <lb/><graphic url="placeholder"/>
+               <lb/>Ytterhörnet med den nya
+               <lb/>svetsplattan
+               <lb/><graphic url="placeholder"/>
+               <lb/>Roy murar upp det 
+               <lb/>första lecablocket.
+               </p>
+         </div>    
+
+
+      <!-- SIDA TJUGOSJU rubrik och första delen av första meningen är skriven med annan penna-->
+
+         <div type="page" facs="#sida27">
+            <head>Fredag 5 juni</head>
+               <p>Porten gjuts idag. Regnskurar mitt på dagen.
+               <lb/>Plåtslagaren Matias, Gård Plåt, börjar laga taket.
+               <lb/><graphic url="placeholder"/><graphic url="placeholder"/><graphic url="placeholder"/>
+               <lb/><graphic url="placeholder"/>
                </p>
          </div>
 
@@ -612,6 +573,7 @@
     
          <div type="page" facs="#sida18">
             <head>Onsdag 20 maj</head>
+               <p>
                <lb/>Duggregn på morgonen med skurar under fm.
                <lb/>Förberedelse inför gjutning av kantbalkar och svetsplattor.
                <lb/>Fortsatta dragningar av El som skall ligga under plattan.
@@ -623,7 +585,9 @@
                <lb/>golvvärmen dras på	
                <lb/> kväll	
                <lb/>
-               <lb/>Danne drar VP-rör			    kantbalkar gjuts på onsdag i solsken
+               <lb/>Danne drar VP-rör	
+          	    kantbalkar gjuts på onsdag i solsken
+         </p>
          </div>
 
             <!-- SIDA NITTON -->
@@ -672,6 +636,7 @@
                <lb/>pga missförstånd mellan konstruktör och utsättare.  
                <lb/>Rådslag om orsak till felet samt hur avhjälpa.
                <lb/>Endast Danne fortsätter med elen i övrigt stannar allt annat av.
+            </p>
          </div>
 
                <!-- SIDA TJUGOTRE-->
@@ -702,6 +667,7 @@
                <lb/>
                <lb/>Bertil har ”gett upp” medan
                <lb/>Rolf funderar!
+            </p>
          </div>
 
          <!-- SIDA TJUGOFEM -->
