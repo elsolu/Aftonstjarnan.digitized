@@ -177,14 +177,104 @@
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090514-15_18.jpeg"/>
          </figure>
       </surface>
-   
 
-    <!-- SIDA TRETTIO -->
- <surface xml:id="sida30">
+            <!-- SIDA SJUTTON -->
+      
+      <surface xml:id="sida17">
          <figure>
-            <label>2009-06-10-12</label>
-            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090610-12.jpeg"/>
+            <label>2009-05-19</label>
+            <figDesc>Dagboksanteckning från 19 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090519.jpeg"/>
+         </figure>
+      </surface>
+
+            <!-- SIDA ARTON -->
+      
+      <surface xml:id="sida18">
+         <figure>
+            <label>2009-05-20</label>
+            <figDesc>Dagboksanteckning från 20 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090520.jpeg"/>
+         </figure>
+      </surface>
+
+            <!-- SIDA NITTON -->
+      
+      <surface xml:id="sida19">
+         <figure>
+            <label>2009-05-25</label>
+            <figDesc>Dagboksanteckning från 25 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090525.jpeg"/>
+         </figure>
+      </surface>
+
+            <!-- SIDA TJUGO -->
+      
+      <surface xml:id="sida20">
+         <figure>
+            <label>2009-05-26</label>
+            <figDesc>Dagboksanteckning från 26 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090526.jpeg"/>
+         </figure>
+      </surface>
+
+            <!-- SIDA TJUGOETT -->
+      
+      <surface xml:id="sida21">
+         <figure>
+            <label>2009-05-27</label>
+            <figDesc>Dagboksanteckning från 27 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090527.jpeg"/>
+         </figure>
+      </surface>
+
+                  <!-- SIDA TJUGOTVÅ -->
+      
+      <surface xml:id="sida22">
+         <figure>
+            <label>2009-05-28</label>
+            <figDesc>Dagboksanteckning från 28 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090528.jpeg"/>
+         </figure>
+      </surface>
+
+                  <!-- SIDA TJUGOTRE -->
+      
+      <surface xml:id="sida23">
+         <figure>
+            <label>2009-05-29</label>
+            <figDesc>Dagboksanteckning från 29 maj 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090529.jpeg"/>
+         </figure>
+      </surface>
+
+                  <!-- SIDA TJUGOFYRA -->
+      
+      <surface xml:id="sida24">
+         <figure>
+            <label>2009-06-01</label>
+            <figDesc>Dagboksanteckning från 1 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090601.jpeg"/>
+         </figure>
+      </surface>
+
+                  <!-- SIDA TJUGOFEM -->
+      
+      <surface xml:id="sida25">
+         <figure>
+            <label>2009-06-02</label>
+            <figDesc>Dagboksanteckning från 2 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090602.jpeg"/>
+         </figure>
+      </surface>
+
+                  <!-- SIDA TJUGOSEX -->
+      
+      <surface xml:id="sida26">
+         <figure>
+            <label>2009-06-03/04</label>
+            <figDesc>Dagboksanteckning från 3 och 4 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090603-04.jpeg"/>
          </figure>
       </surface>
 
@@ -462,7 +552,7 @@
                <p>Betong – och markisol. påbörjas.! (LJ o. BN i Berlin och ser CEA.)
                <lb/>
                                           <lb/>Carl-Einar mit Puzzleträume på      
-                                          <lb/>Scheinbar varité i Berlin
+                                          <lb/>Scheinbar Varité i Berlin
                <lb/>
                <lb/>kantelementen / på plats			
                </p>
@@ -498,6 +588,192 @@
                <lb/>Armering av kantbalkar påbörjas idag	
                </p>
          </div> 
+
+            <!-- SIDA SJUTTON -->
+    
+         <div type="page" facs="#sida17">
+            <head>Tis 19 maj</head>
+               <p>Kantbalkar najas ihop o. sättes på plats
+               <lb/>Danne (Elektr.) drar elrör i plattan.
+               <lb/>Rörläggare lägger golvvärme. 		Sol på morgonen med skurar
+                                                                  <lb/>under e.m.
+               <lb/>Urtag i frigoliten för
+               <lb/>svetsplattorna. 		         Kantbalken (pilar till bild)	
+               <lb/>
+				   <lb/>i ytter-
+				   <lb/>hörn
+               <lb/>
+               <lb/>Kantbalken mot Bostadsbolaget	Danne förbereder för dragning av
+					                                    <lb/>elen i gammal rökkanal 
+               </p>
+         </div>
+
+            <!-- SIDA ARTON Upphöjd siffra 11.30-->
+    
+         <div type="page" facs="#sida18">
+            <head>Onsdag 20 maj</head>
+               <lb/>Duggregn på morgonen med skurar under fm.
+               <lb/>Förberedelse inför gjutning av kantbalkar och svetsplattor.
+               <lb/>Fortsatta dragningar av El som skall ligga under plattan.
+               <lb/>Gjutning sker vid 1130 .
+               <lb/>
+               <lb/>Elrör dras upp i  gammal	   svetsplattan i hörnet – gavel öster
+	                                 <lb/>rökkanal
+               <lb/>
+               <lb/>golvvärmen dras på	
+               <lb/> kväll	
+               <lb/>
+               <lb/>Danne drar VP-rör			    kantbalkar gjuts på onsdag i solsken
+         </div>
+
+            <!-- SIDA NITTON -->
+    
+         <div type="page" facs="#sida19">
+            <head>Måndag 25 maj</head>
+               <p>Armering av plattan och dragning av el till resp båge.
+               <lb/>Kvalitetsansvarig Bernt Flodihn på plats och besiktigade armering m.m. – ok!
+                           <lb/>Bertil har snickrat väggar i blivande soprum
+                           <lb/>i källare. 
+               <lb/>
+               <lb/>Danne drar VP rör till uttag
+               <lb/>i golv vid varje pelare
+               <lb/>
+               <lb/>”uttag passas in”
+                              <lb/>Detalj för ingjutn. av nedfällt uttag i golv
+               </p>
+         </div>
+
+            <!-- SIDA TJUGO -->
+    
+         <div type="page" facs="#sida20">
+            <head>tisdag 26 maj.</head>
+               <p>Betongplattan gjuts på morgonen i solsken – senare duggregn
+               <lb/>
+               <lb/>Sista gjutningen!
+               </p>
+         </div>
+
+            <!-- SIDA TJUGOETT -->
+    
+         <div type="page" facs="#sida21">
+            <head>Onsdag 27/5</head>
+               <p>Bertil och Danne drar el ut till portgången armatur.
+               <lb/>Betongarbetena pågår med formsättning av sockel m.m. 
+               </p>
+         </div>
+
+            <!-- SIDA TJUGOTVÅ Felstavning debaclet-->
+    
+         <div type="page" facs="#sida22">
+            <head>Torsdag 28/5</head>
+               <p>”Deblacet med utsättningen. 18 cm en ocean i dessa
+               <lb/>sammanhang diffade”. 
+               <lb/>Fel utsättning har blivit utförd av bottenplatta och svetsplattor, 
+               <lb/>pga missförstånd mellan konstruktör och utsättare.  
+               <lb/>Rådslag om orsak till felet samt hur avhjälpa.
+               <lb/>Endast Danne fortsätter med elen i övrigt stannar allt annat av.
+         </div>
+
+               <!-- SIDA TJUGOTRE-->
+    
+         <div type="page" facs="#sida23">
+            <head>Fredag 29/5</head>
+               <p>Byggmöte på morgonen. Inställningen till problemet
+               <lb/>har svängt från att riva hela bottenplattan till att
+               <lb/>mura upp ny kantsockel m.m.
+               <lb/>Provstrykning KC-färg
+               <lb/>Ställning vid murstocken monterad.
+               <lb/>Danne monterar belysning i portgång för
+				                              <lb/>ingjutning
+               </p>
+         </div>
+
+               <!-- SIDA TJUGOFYRA-->
+    
+         <div type="page" facs="#sida24">
+            <head>Måndag 1 juni</head>
+               <p>Hett redan på morgonen efter en varm pingst!
+               <lb/>Möte 800 med konstruktör Rolf och Per om nya lägen (VILKA MENINGAR HÖR IHOP?)
+               <lb/>pelare enl. S6. kordinater . Det skiljer både 18 cm
+		                                          <lb/>resp 5 cm i båda leden.
+               <lb/>Vi kommer fram till att bila bort vid sidan om ingjutna
+               <lb/>svetsplattor, bila bort vid avlopp m.m.
+               <lb/>Nya svetsplattor enl. Rolfs ritning	
+               <lb/>
+               <lb/>Bertil har ”gett upp” medan
+               <lb/>Rolf funderar!
+         </div>
+
+         <!-- SIDA TJUGOFEM -->
+    
+         <div type="page" facs="#sida25">
+            <head>Tisdag 2 juni</head>
+               <p>Muraren Roy murar igen rökkanalen när han
+               <lb/>inte deklamerar Kents dikter.
+               <lb/>Plåtslagaren Matias, Gårda Plåtslageri, mäter och förbereder
+               <lb/>ilagningen av plåttaket.
+               <lb/>Lolo o Bertil kontrollmäter de nya lägena för svetsplattorna
+               <lb/>– ok!
+               <lb/>
+               <lb/>Roy deklamerar ”Steget”
+               <lb/>som han sedan murar
+               <lb/>in i väggen!
+               </p>
+         </div>
+
+         <!-- SIDA TJUGOSEX -->
+    
+         <div type="page" facs="#sida26">
+            <head>Ons och Tors 3 o 4 juni</head>
+               <p>Nya svetsplattor sätts på plats.
+               <lb/>Roy och SEbbe fortsätter att fylla igen hål i
+               <lb/>murarna och börjar också putsa.
+               <lb/>Muren mot öster börjar resas.
+               <lb/>
+               <lb/>Ytterhörnet med den nya	
+               <lb/>svetsplattan	
+               <lb/>
+                                    <lb/>Roy murar upp det 
+                                    <lb/>första lecablocket
+               </p>
+         </div>
+
+
+   <!-- SIDA TRETTIO hur gör vi med indrag?-->
+
+<div type="page" facs="#sida30">
+      <div><head>Onsdag 10 juni</head>
+         <p>
+           <lb/>Regn, Regn och Regn.
+           <lb/>Muren blir putsbelagd med ett första påslag
+         </p>
+      </div>
+
+      <div>
+         <head>Torsdag 11 juni</head>
+         <p>
+           <lb/>Roy, Sebbe o. Mikael slätputsar insidan av muren.
+           <lb/>Lolo o Bertil målar träfasaden en andra gång samt fönstren 1 ggr.
+           <lb/>På kvällen skrapar Yngve, Tomas och Erica färdigt i porten.
+           <lb/>Lolo putslagar skador i fasaden, Bertil spacklar fönstren.
+         </p>
+       </div>
+       
+       <div>
+         <figure>
+           <graphic url="placeholder"/>
+           <graphic url="placeholder"/>
+         </figure>
+         <head>Fredag 12 juni</head>
+         <p>
+           <lb/>Regn med mycket vindar
+           <lb/>hela dagen.
+         </p>
+       </div>
+       
+  
+   </div>
+
 
 
    <!-- SIDA TRETTIO hur gör vi med indrag?-->
