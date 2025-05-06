@@ -703,7 +703,93 @@
                                     <lb/>första lecablocket
                </p>
          </div>
+ <!-- SIDA TJUGOSJU -->
 
+         <surface xml:id="sida27">
+         <figure>
+            <label>2009-06-05</label>
+            <figDesc>Dagboksanteckning från 5 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090605.jpeg"/>
+         </figure>
+      </surface>
+
+
+   <!-- SIDA TJUGOÅTTA -->
+
+         <surface xml:id="sida28">
+         <figure>
+            <label>2009-06-08</label>
+            <figDesc>Dagboksanteckning från 8 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090608.jpeg"/>
+         </figure>
+      </surface>
+
+
+   <!-- SIDA TJUGONIO -->
+   <surface xml:id="sida29">
+         <figure>
+            <label>2009-06-09</label>
+            <figDesc>Dagboksanteckning från 9 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090609.jpeg"/>
+         </figure>
+      </surface>
+   
+
+    <!-- SIDA TRETTIO -->
+ <surface xml:id="sida30">
+   <surface xml:id="sida30">
+         <figure>
+            <label>2009-06-10-12</label>
+            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
+
+               </p>
+         </div> 
+
+      <!-- SIDA TJUGOSJU rubrik och första delen av första meningen är skriven med annan penna-->
+
+         <div type="page" facs="#sida27">
+            <head>Fredag 5 juni</head>
+               <p>Porten gjuts idag. Regnskurar mitt på dagen.
+               <lb/>Plåtslagaren Matias, Gård Plåt, börjar laga taket.
+               <lb/><graphic url="placeholder"/><graphic url="placeholder"/><graphic url="placeholder"/>
+               <lb/><graphic url="placeholder"/>
+               </p>
+         </div>      
+      
+       <!-- SIDA TJUGOÅTTA -->
+          
+         <div type="page" facs="#sida28">
+            <head>Måndag 8 juni</head>
+               <p>Roy och Sebbe fortsätter med uppmurning av
+               <lb/>brandmur.
+               <lb/>Plåtslagaren klar med ilagning av taket.
+               </p>
+         </div>  
+
+      <!-- SIDA TJUGONIO obs Sic på första "skrapas" korrekt ska vara "skrapar". Se över bildplaceringen -->
+         <div type="page" facs="#sida29">
+         <graphic url="placeholder"/><head>tisdag 9 juni </head><graphic url="placeholder"/>
+         <p>
+         <lb/>Brandmuren är uppe på
+         <lb/>+28.655
+         <lb/>Vi hyr en saxlift och tvättar, skrapas
+         <lb/>och pågrundar på dagen.
+         <lb/>Vid 18-tid kommer ett glatt målar-
+         <lb/>gäng. Träfasad målas en gång,
+         <lb/>fönstren skrapas och putsfasaden under
+         <lb/>fönstren samt portgången rengörs och
+         <lb/>skrapas.
+         </p>
+
+         <p>
+         <graphic url="placeholder"/><graphic url="placeholder"/>
+         <lb/><graphic url="placeholder"/><space quantity="30" unit="character"/><graphic url="placeholder"/><graphic url="placeholder"/>
+         <lb/> Yngve, Rolf, Robert, Claes, Elin,
+         <lb/>Helena, Bosse, Bertil, Hilda,
+         <lb/>Lavinia, Inger fikar. 
+               
+               </p>
+         </div> 
 
    <!-- SIDA TRETTIO hur gör vi med indrag?-->
 
