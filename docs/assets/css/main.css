@@ -24,11 +24,17 @@ h2 {
     font-size: 14px;
 }
 
+
 h3 {
     font-weight: bold;
     padding: 1vw;
     
 }
+
+p{
+  font-size: 14px;
+}
+
 
 #details {
     padding: 2vw;
@@ -103,18 +109,58 @@ footer {
   .gallery-img:hover {
     transform: scale(1.03);
   }
-  
-  .zoom-container {
-    display: flex;
-    align-items: start;
-    gap: 20px; /* Avstånd mellan bild och zoomfönster */
-  }
 
   #zoom-image {
-    max-width: 500px; /* Begränsa hur stor bilden kan bli */
-    width: 100%;
-    height: auto;
+    width: 700px; /* Gör bilden större, justera gärna efter behov */
+    max-width: 100%;
+    display: block;
+    margin-left: 0; /* Justera bilden så den inte är centrerad */
+  }
+  .zoom-container {
+    text-align: left; /* Justera till vänster */
+    margin-top: 20px;
+    padding-left: 20px; /* Justera avståndet från vänster */
   }
 
+  .elevatezoom-window {
+    margin-top: 0 !important; /* Minska eventuellt extra utrymme över zoomfönstret */
+    margin-left: 20px !important; /* Justera detta för att få det att passa bättre */
+    border: 1px solid #ccc !important; /* Lägg till en liten kantlinje om du vill ha det */
+}
 
-  
+
+.figure-container figcaption {
+  border: 1px solid #000;  /* Svart kant runt beskrivningen */
+  padding: 10px;           /* Avstånd runt texten */
+  text-align: center;
+  background-color: #f9f9f9; /* Bakgrundsfärg för att göra rutan synlig */
+  font-size: 10px;          /* Justera textstorleken om du vill */
+  margin-top: 2px;         /* Lägg till lite avstånd ovanför rutan */
+}
+
+td {
+  font-size: 14px; 
+  line-height: 1.25;
+  vertical-align: top; 
+}
+
+table {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+row {
+  display: table-row;
+}
+
+cell {
+ text-align: left;
+}
+
+td figure {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  background-color: #f0f0f0;
+}
