@@ -228,6 +228,47 @@
          </figure>
       </surface>
 
+      <!-- SIDA TJUGOSJU -->
+
+      <surface xml:id="sida27">
+         <figure>
+            <label>2009-06-05</label>
+            <figDesc>Dagboksanteckning från 5 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090605.jpeg"/>
+         </figure>
+      </surface>
+
+
+   <!-- SIDA TJUGOÅTTA -->
+
+         <surface xml:id="sida28">
+         <figure>
+            <label>2009-06-08</label>
+            <figDesc>Dagboksanteckning från 8 juni 2009</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090608.jpeg"/>
+         </figure>
+      </surface>
+
+
+   <!-- SIDA TJUGONIO -->
+   <surface xml:id="sida29">
+         <figure>
+            <label>2009-06-09</label>
+            <figDesc>Dagboksanteckning från 9 juni 2009.</figDesc>
+            <graphic url="assets/img/documents/dagbok_ombyggnation_20090609.jpeg"/>
+         </figure>
+      </surface>
+   
+
+    <!-- SIDA TRETTIO -->
+ <surface xml:id="sida30">
+         <figure>
+            <label>2009-06-10-12</label>
+            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
+         </figure>
+ </surface>
+
+
    </facsimile>
 
    <text>
@@ -703,48 +744,7 @@
                                     <lb/>första lecablocket
                </p>
          </div>
- <!-- SIDA TJUGOSJU -->
-
-         <surface xml:id="sida27">
-         <figure>
-            <label>2009-06-05</label>
-            <figDesc>Dagboksanteckning från 5 juni 2009</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090605.jpeg"/>
-         </figure>
-      </surface>
-
-
-   <!-- SIDA TJUGOÅTTA -->
-
-         <surface xml:id="sida28">
-         <figure>
-            <label>2009-06-08</label>
-            <figDesc>Dagboksanteckning från 8 juni 2009</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090608.jpeg"/>
-         </figure>
-      </surface>
-
-
-   <!-- SIDA TJUGONIO -->
-   <surface xml:id="sida29">
-         <figure>
-            <label>2009-06-09</label>
-            <figDesc>Dagboksanteckning från 9 juni 2009.</figDesc>
-            <graphic url="assets/img/documents/dagbok_ombyggnation_20090609.jpeg"/>
-         </figure>
-      </surface>
-   
-
-    <!-- SIDA TRETTIO -->
- <surface xml:id="sida30">
-   <surface xml:id="sida30">
-         <figure>
-            <label>2009-06-10-12</label>
-            <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
-
-               </p>
-         </div> 
-
+ 
       <!-- SIDA TJUGOSJU rubrik och första delen av första meningen är skriven med annan penna-->
 
          <div type="page" facs="#sida27">
@@ -768,7 +768,8 @@
 
       <!-- SIDA TJUGONIO obs Sic på första "skrapas" korrekt ska vara "skrapar". Se över bildplaceringen -->
          <div type="page" facs="#sida29">
-         <graphic url="placeholder"/><head>tisdag 9 juni </head><graphic url="placeholder"/>
+         <head>tisdag 9 juni </head> 
+         <figure><graphic url="placeholder"/></figure>
          <p>
          <lb/>Brandmuren är uppe på
          <lb/>+28.655
