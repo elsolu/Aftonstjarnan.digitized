@@ -131,69 +131,131 @@
         </html>
     </xsl:template>
 
-    <!-- TEI -->
-    <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:lb"><br/></xsl:template>
-    <xsl:template match="tei:head"><h2><xsl:apply-templates/></h2></xsl:template>
-    <xsl:template match="tei:p"><p><xsl:apply-templates/></p></xsl:template>
-    <xsl:template match="tei:del"><del><xsl:apply-templates/></del></xsl:template>
-    <xsl:template match="tei:add"><sup><xsl:apply-templates/></sup></xsl:template>
-    <xsl:template match="tei:hi[@rend='u']"><u><xsl:apply-templates/></u></xsl:template>
-    <xsl:template match="div[@rend='center']">
-        <section style="text-align: center"><xsl:apply-templates/></section>
-    </xsl:template>
-    <xsl:template match="tei:space">
-        <xsl:choose>
-            <xsl:when test="@unit = 'line'">
-                <div style="{concat('height: ', @quantity, 'em;')}"></div>
-            </xsl:when>
-            <xsl:when test="@unit = 'cm'">
-                <div style="{concat('height: ', @quantity, 'cm;')}"></div>
-            </xsl:when>
-            <xsl:when test="@unit = 'character'">
-                <span>
-                    <xsl:for-each select="1 to xs:integer(@quantity)">
-                        <xsl:text>&#160;</xsl:text>
-                    </xsl:for-each>
-                </span>
-            </xsl:when>
-            <xsl:otherwise>
-                <span>&#160;</span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <xsl:template match="tei:graphic">
-        <span style="display: inline-block; width: 10px; height: 10px; border: 1px solid black; margin: 0 0.2em; vertical-align: middle;"></span>
-    </xsl:template>
+   <!-- TEI -->
+   <xsl:template match="tei:teiHeader"></xsl:template>
+   <xsl:template match="tei:lb"><br/></xsl:template>
+   <xsl:template match="tei:head"><h2><xsl:apply-templates/></h2></xsl:template>
+   <xsl:template match="tei:del"><del><xsl:apply-templates/></del></xsl:template>
+   <xsl:template match="tei:add"><sup><xsl:apply-templates/></sup></xsl:template>
+   <xsl:template match="tei:hi[@rend='u']"><u><xsl:apply-templates/></u></xsl:template>
+   <xsl:template match="div[@rend='center']">
+       <section style="text-align: center"><xsl:apply-templates/></section>
+   </xsl:template>
+   <xsl:template match="div[@rend='right']">
+       <section style="text-align: right"><xsl:apply-templates/></section>
+   </xsl:template>
+   <xsl:template match="div[@rend='left']">
+       <section style="text-align: left"><xsl:apply-templates/></section>
+   </xsl:template>
+   <xsl:template match="tei:space">
+       <xsl:choose>
+           <xsl:when test="@unit = 'line'">
+               <div style="{concat('height: ', @quantity, 'em;')}"></div>
+           </xsl:when>
+           <xsl:when test="@unit = 'cm'">
+               <div style="{concat('height: ', @quantity, 'cm;')}"></div>
+           </xsl:when>
+           <xsl:when test="@unit = 'character'">
+               <span>
+                   <xsl:for-each select="1 to xs:integer(@quantity)">
+                       <xsl:text>&#160;</xsl:text>
+                   </xsl:for-each>
+               </span>
+           </xsl:when>
+           <xsl:otherwise>
+               <span>&#160;</span>
+           </xsl:otherwise>
+       </xsl:choose>
+   </xsl:template>
+   <xsl:template match="tei:graphic">
+       <span style="display: inline-block; width: 10px; height: 10px; border: 1px solid black; margin: 0 0.2em; vertical-align: middle;"></span>
+   </xsl:template>
+
+   <xsl:template match="tei:p">
+  <xsl:variable name="style">
+    <xsl:choose>
+      <xsl:when test="@rend = 'center'">text-align: center;</xsl:when>
+      <xsl:when test="@rend = 'right'">text-align: right;</xsl:when>
+      <xsl:when test="@rend = 'left'">text-align: left;</xsl:when>
+      <xsl:otherwise></xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  <p>
+
+    
+    <xsl:if test="$style != ''">
+      <xsl:attribute name="style">
+        <xsl:value-of select="$style"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </p>
+</xsl:template>
+
+<xsl:template match="hi[@rend='sup']">
+  <sup>
+    <xsl:apply-templates/>
+  </sup>
+</xsl:template>
 
 
+   <xsl:template match="tei:table">
+       <table>
+         <xsl:apply-templates/>
+       </table>
+     </xsl:template>
+     
+     <xsl:template match="tei:row">
+       <tr>
+         <xsl:apply-templates/>
+       </tr>
+     </xsl:template>
+     
+     <xsl:template match="tei:cell">
+       <td>
+         <xsl:apply-templates/>
+       </td>
+     </xsl:template>
+    
 
-    <xsl:template match="tei:table">
-        <table>
-          <xsl:apply-templates/>
-        </table>
-      </xsl:template>
-      
-      <xsl:template match="tei:row">
-        <tr>
-          <xsl:apply-templates/>
-        </tr>
-      </xsl:template>
-      
-      <xsl:template match="tei:cell">
-        <td>
-          <xsl:apply-templates/>
-        </td>
-      </xsl:template>
-      
+      <xsl:template match="tei:figure">
+  <figure class="cell-figure">
+    <xsl:apply-templates select="tei:note[@type='figdesc']"/>
+  </figure>
+</xsl:template>
+
+<xsl:template match="tei:note[@type='figdesc']">
+  <div class="figure-caption">
+    <xsl:apply-templates/>
+  </div>
+</xsl:template>
+
+<xsl:template match="tei:lb">
+  <br/>
+</xsl:template>
+
+<xsl:template match="tei:g">
+  <xsl:choose>
+    <xsl:when test="@ref = '#left-arrow'">
+      &#x2190; <!-- ← -->
+    </xsl:when>
+    <xsl:when test="@ref = '#right-arrow'">
+      &#x2192; <!-- → -->
+    </xsl:when>
+    <xsl:otherwise>
+      <span class="symbol"><xsl:value-of select="@ref"/></span>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
 <xsl:template match="tei:figure">
-    <div class="figure-container">
-        <figure>
-            <figcaption class="figure-caption">
-                <xsl:value-of select="tei:figDesc"/>
-            </figcaption>
-        </figure>
-    </div>
+  <figure>
+    <xsl:attribute name="class">
+      <xsl:text>cell-figure </xsl:text>
+      <xsl:value-of select="@rend"/>
+    </xsl:attribute>
+    <xsl:apply-templates/>
+  </figure>
 </xsl:template>
+
 </xsl:stylesheet>

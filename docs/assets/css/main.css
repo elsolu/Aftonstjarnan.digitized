@@ -22,6 +22,7 @@ nav {
 
 h2 {
     font-size: 14px;
+    text-align: left;
 }
 
 
@@ -30,6 +31,7 @@ h3 {
     padding: 1vw;
     
 }
+
 
 p{
   font-size: 14px;
@@ -133,7 +135,7 @@ footer {
   border: 1px solid #000;  /* Svart kant runt beskrivningen */
   padding: 10px;           /* Avstånd runt texten */
   text-align: center;
-  background-color: #f9f9f9; /* Bakgrundsfärg för att göra rutan synlig */
+  background-color: white; /* Bakgrundsfärg för att göra rutan synlig */
   font-size: 10px;          /* Justera textstorleken om du vill */
   margin-top: 2px;         /* Lägg till lite avstånd ovanför rutan */
 }
@@ -142,12 +144,16 @@ td {
   font-size: 14px; 
   line-height: 1.25;
   vertical-align: top; 
+  height: 100%;
+  padding: 0;
 }
 
 table {
   font-size: inherit;
   font-family: inherit;
   line-height: inherit;
+  background-color: white
+
 }
 
 row {
@@ -156,11 +162,95 @@ row {
 
 cell {
  text-align: left;
+ background-color: white
 }
+
+.cell-figure {
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+}
+
 
 td figure {
   display: flex;
   align-items: stretch;
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: white
+}
+
+/* Bildvarianter */
+.cell-figure.portraitsmall {
+  width: 80px;
+  height: 100px;
+  font-size: 10px;
+}
+
+.cell-figure.portraitmedium {
+  width: 120px;
+  height: 150px;
+  font-size: 12px;
+}
+
+.cell-figure.portraitlarge {
+  width: 160px;
+  height: 200px;
+  font-size: 14px;
+}
+
+.cell-figure.landscapesmall {
+  width: 100px;
+  height: 80px;
+  font-size: 12px;  
+}
+
+.cell-figure.landscapemedium {
+  width: 150px;
+  height: 120px;
+  font-size: 12px;  
+}
+
+.cell-figure.landscapelarge {
+  width: 200px;
+  height: 160px;
+  font-size: 12px;  
+}
+
+.cell-figure.rectangular {
+  width: 150px;
+  height: 150px;
+  font-size: 10px;
+}
+
+.cell-figure.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.cell-figure.left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cell-figure.right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* För att hantera vertikal justering på flex-containrar */
+.valign-top {
+  align-items: flex-start; /* Justera till toppen */
+}
+
+.valign-middle {
+  align-items: center; /* Justera till mitten */
+}
+
+.valign-bottom {
+  align-items: flex-end; /* Justera till botten */
 }
