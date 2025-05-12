@@ -5,6 +5,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
+  
          <titleStmt>
             <title>Dagbok ombyggnation</title>
             <author>Lolo Jakobsson</author>
@@ -17,6 +18,9 @@
             <p>Digitaliserad dagbok från ombyggnationen av Aftonstjärnan, 2009.</p>
          </sourceDesc>
       </fileDesc>
+      <xenoData>
+             <!-- HÄR SKA METADATA FRÅN EXIFTOOL IN -->
+      </xenoData>
    </teiHeader>
 
    <facsimile>
@@ -530,7 +534,7 @@
    <!-- SIDA FEM Bilder på olika ställen + ritning med anteckningar -->
 
          <div type="page" facs="#sida5">
-            <head><space quantity="10" unit="character"/>Torsdag 23/4</head>
+            <head><space quantity="20" unit="character"/>Torsdag 23/4</head>
                <table>
                   <row>
                      <cell>
@@ -970,7 +974,7 @@
                </cell>  
                <cell><space quantity="50" unit="character"/></cell>   	
                <cell>
-                  <figure rend="center">
+                  <figure rend="landscapemedium center">
                      <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
                   </figure> 
                </cell>   
@@ -986,14 +990,14 @@
          <table>
             <row>
                <cell>
-                  <figure rend="center">
+                  <figure rend="portraitmedium center">
                      <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
                   </figure> 
                   Ett lager frigolite/markisol. på plats
                </cell>
                <cell><space quantity="20" unit="character"/></cell>   
                <cell>
-                  <figure rend="center">
+                  <figure rend="landscapelarge center">
                      <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
                   </figure> 
                   VA-ritning/grundplan
