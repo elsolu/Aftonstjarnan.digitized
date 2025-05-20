@@ -1,23 +1,44 @@
 
 
 body {
-	padding: 1vw;
-	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.25;
 	font-size: 1vw;
   width: 100%;
+  background-color: #ffffff;
 	}
 
 h1, h2, h3, nav, footer {
     text-align: center;
 }
 
+header {
+  background-color: #f8ecd3; 
+}
+header h1{
+  margin: 0;
+  padding: 2vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 nav {
     margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     padding: 1vw;
+    padding-bottom: 5vw;
+    background-color: #f8ecd3;
+   
+}
+
+nav a {
+  color: #000; 
+  text-decoration: none; 
+  font-family: Futura;
+  font-size: 14px;
+  margin: 0 2vw;
+}
+
+nav a:hover {
+  color: rgb(74, 73, 73);
 }
 
 h2 {
@@ -39,15 +60,15 @@ p{
 
 
 #details {
-    padding: 2vw;
-    margin: 1vw;
-    text-align: center;    
+  padding: 2vw;
+  margin: 1vw;
+  text-align: center;    
 }
 
 footer {
-    border-top: 1px solid black;
     padding-top: 1vw;
     margin-top: 1vw;
+    background-color: #f8ecd3;
 }
 
 .copyright {
@@ -81,7 +102,6 @@ footer {
 
 .img-full {
     margin: 5px;
-    border: 1px solid black;
     width: 500px;
 }
 
@@ -242,15 +262,8 @@ td figure {
   margin-right: 0;
 }
 
-/* För att hantera vertikal justering på flex-containrar */
-.valign-top {
-  align-items: flex-start; /* Justera till toppen */
-}
-
-.valign-middle {
-  align-items: center; /* Justera till mitten */
-}
-
-.valign-bottom {
-  align-items: flex-end; /* Justera till botten */
-}
+    .tiny-star {
+      font-size: 0.3em;    /* Gör tecknet mindre */
+      vertical-align: middle; /* Justera linjehöjd om den ser skev ut */
+      color: black;        /* Valfri färg */
+    }

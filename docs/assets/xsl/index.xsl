@@ -30,10 +30,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> |
-                    <a href="dagbok.html">Dagbok ombyggnation</a> |
-                    <a href="ritningar.html">Ritningar</a> |
-                    <a href="galleri.html">Galleri</a> |
+                    <a href="index.html">Hem</a> 
+                    <a href="dagbok.html">Dagbok ombyggnation</a> 
+                    <a href="ritningar.html">Ritningar</a> 
+                    <a href="galleri.html">Galleri</a> 
                     </nav>
                     
                 <main id="manuscript">

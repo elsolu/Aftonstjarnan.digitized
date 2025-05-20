@@ -27,14 +27,14 @@
       <body>
         <header>
           <h1>
-            Aftonstjärnan
+            <span class="tiny-star">&#x2726;</span>AFTONSTJÄRNAN<span class="tiny-star">&#x2726;</span>
           </h1>
         </header>
 
-        <nav id="sitenav" class="container mb-4">
-            <a href="index.html">Hem</a> |
-            <a href="dagbok.html">Dagbok ombyggnation</a> |
-            <a href="ritningar.html">Ritningar</a> |
+        <nav id="sitenav">
+            <a href="index.html">Hem</a> 
+            <a href="dagbok.html">Dagbok ombyggnation</a> 
+            <a href="ritningar.html">Ritningar</a> 
             <a href="galleri.html">Galleri</a>
         </nav>
 

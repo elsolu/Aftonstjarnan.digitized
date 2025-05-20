@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <galleri xmlns="http://www.tei-c.org/ns/1.0">
-  <ritning>
+  <galleribild>
     <id>bygglovshandling_20081203</id>
     <file>bygglovshandling_20081203.xml</file>
     <img>assets/img/documents/bygglovshandling_20081203.jpeg</img>
     <link>bygglovshandling_20081203.html</link>
-  </ritning>
+  </galleribild>
 
-  <ritning>
+  <galleribild>
     <id>planlosning_med_matt_n.d</id>
     <file>planlosning_med_matt_n.d.xml</file>
     <img>assets/img/documents/planlosning_med_matt_n.d.jpeg</img>
     <link>planlosning_med_matt_n.d.html</link>
-  </ritning>
+  </galleribild>
+
+   <galleribild>
+    <id>dagbok</id>
+    <file>dagbok.xml</file>
+    <img>assets/img/documents/dagbok_ombyggnation_2009_framsida.jpeg</img>
+    <link>dagbok.html</link>
+  </galleribild>
+
   <!-- Lägg till fler ritningar här -->
 </galleri>

@@ -18,14 +18,14 @@
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous"/>
             </head>
             <body>
-                <header class="container">
-                    <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
+                <header>
+                  <h1>AFTONSTJÄRNAN</h1>
                 </header>
 
-                <nav id="sitenav" class="container mb-4">
-                    <a href="index.html">Hem</a> |
-                    <a href="dagbok.html">Dagbok ombyggnation</a> |
-                    <a href="ritningar.html">Ritningar</a> |
+                <nav id="sitenav">
+                    <a href="index.html">Hem</a> 
+                    <a href="dagbok.html">Dagbok ombyggnation</a>
+                    <a href="ritningar.html">Ritningar</a>
                     <a href="galleri.html">Galleri</a>
                 </nav>
 

@@ -10,27 +10,27 @@
     <html lang="sv" xml:lang="sv">
       <head>
         <meta charset="UTF-8"/>
-        <title>Galleri - Ritningar</title>
+        <title>Galleri</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="assets/css/desktop.css"/>
       </head>
       <body>
         <header>
-          <h1>Galleri - Ritningar</h1>
+          <h1>AFTONSTJÄRNAN</h1>
         </header>
 
         <nav id="sitenav">
-          <a href="index.html">Hem</a> |
-          <a href="dagbok.html">Dagbok ombyggnation</a> |
-          <a href="ritningar.html">Ritningar</a>|
+          <a href="index.html">Hem</a> 
+          <a href="dagbok.html">Dagbok ombyggnation</a> 
+          <a href="ritningar.html">Ritningar</a>
           <a href="galleri.html">Galleri</a>
         </nav>
 
         <main class="container">
           <div class="row">
-            <!-- Loopa genom ritningarna -->
-            <xsl:for-each select="tei:galleri/tei:ritning">
+            <!-- Loopa genom bilderna -->
+            <xsl:for-each select="tei:galleri/tei:galleribild">
               <div class="col-md-4 mb-4">
                 <div class="image-container">
                   <!-- Länk som gör bilden klickbar -->
