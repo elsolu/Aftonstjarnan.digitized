@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
 	         <title>WC på svalen – byggdagbok</title>
-	         <author>: Lolo Jakobsson</author>
+
+	         <author>:Lolo Jakobsson</author>)
+
             <editor>Tina Nilsson, Elin Lundh, Maja Andersson</editor>
          </titleStmt>
 
@@ -46,17 +48,20 @@
                      <supportDesc>
                         <support>Olinjerat spiralblock i A3-format.
                         </support>
-                        <extent>
+                        <extent>Totalt 118 sidor, varav 29 med anteckningar.</extent>
                            <dimensions unit="cm">
-                              <height>XX</height>
-                              <width>XX</width>
+                              <height>29,5</height>
+                              <width>43</width>
                            </dimensions>
-                        </extent>
                      </supportDesc>
+
+                     <layoutDesc><p>De flesta sidor består av text och bild. Vissa sidor innehåller även ritningar som har skapats digitalt och skrivits ut eller tecknats för hand. 
+
                      <layoutDesc>
                            <p>
 
                            </p>
+
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
@@ -66,7 +71,7 @@
                      <p>Skriv ev. om hur och när dagboken uppkom.</p>
                   </origin>
                   <acquisition>
-                     <p>Skriv ev. hur den kom till Aftonstjärnan</p>
+                     <p>Dagboken ingick i en större samling material om Aftonstjärnan som en privatperson hade samlat ihop. När personen i fråga avled skänktes samlingen till Aftonstjärnan.</p>
                   </acquisition>
                </history>
             </msDesc>
