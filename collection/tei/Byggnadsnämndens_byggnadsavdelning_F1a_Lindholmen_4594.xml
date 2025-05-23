@@ -18,8 +18,10 @@
         <date>2007-2009</date>
       </publicationStmt>
       <sourceDesc>
-        <p>Digitaliserade ritningar från ombyggnationen av Aftonstjärnan, 2007-2009.</p>
-      </sourceDesc>
+   <p>
+      Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
+   </p>
+  </sourceDesc>
     </fileDesc>
 
     <xenoData>
@@ -58,21 +60,22 @@
     </xenoData>
   </teiHeader>
 
-
+  <!--HÄR LÄGGER VI IN NYA BILDER-->
    <facsimile>
-      <surface xml:id="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">
+      <surface xml:id="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594"> <!--LÄGG TILL ETT NAMN PÅ BILDEN ETT S.K. ID-->
          <figure>
-            <label>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</label>
-            <figDesc>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</figDesc>
-            <graphic url="assets/img/documents/Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.jpeg"/>
+            <label>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</label><!--LÄGG TILL EN LABEL/ETTIKET PÅ BILDEN. FÖRSLAGSVIS SAMMA SOM ID MEN UTAN _ DENNA KOMMER VISAS PÅ HEMSIDAN-->
+            <figDesc>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</figDesc><!--HÄR GÅR DET ATT LÄGGA TILL EN BESKRIVNING AV BILDEN-->
+            <graphic url="assets/img/documents/Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.jpeg"/><!--HÄR LÄNKAR VI TILL BILDEN. VIKTIGT ATT LÄNKEN BLIR RÄTT, KOPIERA OCH ÄNDRA TITEL PÅ BILD: assets/img/documents/TITEL.FORMAT. BILDEN MÅSTE FINNAS I RÄTT MAPP. HUVUDMAPP AFTONSTJÄRNAN > ASSETS > IMG > DOCUMENTS -->
          </figure>
       </surface>
    </facsimile>
 
+   <!--HÄR KAN VI LÄGGA TILL OM VI VILL HA UTÖKAD INFORMATION OM BILDEN-->
    <text>
       <body>
-         <div type="page" facs="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">
-            <p>Transkription av sida 1</p>
+         <div type="page" facs="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">   <!--FACS = SKA VAR ID PÅ BILDEN DU VILL BESKRIVA-->
+            <p>Upphovsrätt</p> <!-- DENNA TEXTEN KOMMER SYNAS PÅ HEMSIDAN-->
          </div>
       </body>
    </text>
