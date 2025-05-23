@@ -6,17 +6,88 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dagbok ombyggnation</title>
-            <author>Lolo Jakobsson</author>
+	         <title>WC på svalen – byggdagbok</title>
+	         <author>: Lolo Jakobsson</author>)
+            <editor>Tina Nilsson, Elin Lundh, Maja Andersson</editor>
          </titleStmt>
+
          <publicationStmt>
-            <publisher>Aftonstjärnan</publisher>
-            <date>2009</date>
-         </publicationStmt>
+            <publisher>Institutionen för biblioteks- och informationsvetenskap vid Högskolan i Borås</publisher>
+            <pubPlace>Borås</pubPlace>
+	         <date when="2025-05">Maj 2025</date>
+	         <availability>Publicerad med tillstånd från författarens efterlevande. Originaldagboken finns hos Aftonstjärnans Kulturförening, Lindholmen, Göteborg.</availability>	 
+         <publicationStmt>
+
          <sourceDesc>
-            <p>Digitaliserad dagbok från ombyggnationen av Aftonstjärnan, 2009.</p>
+	         <msDesc>
+		         <msIdentifier>
+ 			         <repository>Aftonstjärnans Kulturförening
+		               <address>
+		                  <street>Plåtslagaregatan 2</street>
+		                  <postCode>417 57</postCode>
+                        <name>Göteborg</name>
+                        <name>Sverige</name>
+                     </address>
+                  </repository>
+                  <settlement>Göteborg</settlement>
+                  <country><Sverige/country>
+               </msIdentifier>
+            
+               <msContents>
+                  <msItem>
+                     <title>dAgbok</title>
+                     <author>Lolo Jakobsson</author>
+                     <date when="2009">20 april t.o.m. 12 juni 2009</date>
+                     <textLang mainLang=”sv”>Svenska</textLang>
+                     <note>Dagbok som dokumenterar ombyggnationen av kulturcentret Aftonstjärnan på Lindholmen i Göteborg år 2009.</note>
+                  </msItem>
+               </msContents>
+            
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Olinjerat spiralblock i A3-format.
+                        </support>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>XX</height>
+                              <width>XX</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <p>Skriv ev. om hur och när dagboken uppkom.</p>
+                  </origin>
+                  <acquisition>
+                     <p>Skriv ev. hur den kom till Aftonstjärnan</p>
+                  </acquisition>
+               </history>
+            <msDesc>
          </sourceDesc>
+
+         <profileDesc>
+            <handNotes>
+               <handNote xml:id="h1" script="cursive" medium="black ink" scope="sole">
+               Hand of Lolo Jakobsson
+               </handNote>
+            </handNotes>
+            <particDesc>
+               <listPerson>
+                  <person xml:id="p1">
+                     <persName>Lolo Jakobsson</persName>
+                     <note>Author of the handwritten text</note>
+                  </person>
+               </listPerson>
+            </particDesc>
+         </profileDesc>
       </fileDesc>
+
       <xenoData>
              <!-- HÄR SKA METADATA FRÅN EXIFTOOL IN ???-->
       </xenoData>
