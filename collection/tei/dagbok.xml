@@ -20,6 +20,22 @@
       <xenoData>
              <!-- HÄR SKA METADATA FRÅN EXIFTOOL IN ???-->
       </xenoData>
+
+      <profileDesc>
+    <handNotes>
+      <handNote xml:id="h1" script="cursive" medium="black ink" scope="sole">
+        Hand of Lolo Jakobsson
+      </handNote>
+    </handNotes>
+    <particDesc>
+      <listPerson>
+        <person xml:id="p1">
+          <persName>Lolo Jakobsson</persName>
+          <note>Author of the handwritten text</note>
+        </person>
+      </listPerson>
+    </particDesc>
+  </profileDesc>
    </teiHeader>
 
    <facsimile>
@@ -333,7 +349,7 @@
 
    </facsimile>
 
-   <text>
+   <text hand="#h1">
       <body>
 
    <!-- SIDA ETT -->
@@ -589,7 +605,7 @@
                      <cell><space quantity="20" unit="character"/></cell>
                      <cell>
                         <figure rend="portraitmedium left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på nya entré till B-salen<lb/>och två personer som arbetar</note>
                         </figure>
                         <lb/>Ny entré till B-salen
                      </cell>
@@ -599,13 +615,13 @@
                   <row>          
                      <cell>
                         <figure rend="landscapelarge left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild "storklingan"<lb/>som sågar isär trapphuset</note>
                         </figure>
                      </cell>
                      <cell><space quantity="40" unit="character"/></cell>
                      <cell>
                         <figure rend="portraitmedium left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på källartrappa<lb/>som muras igen</note>
                         </figure>
                         Källartrappa adjö
                      </cell>
@@ -632,19 +648,19 @@
                   <row>          
                      <cell>
                         <figure rend="portraitlarge left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på bakre delen <lb/>av en grävmaskin</note>
                         </figure>
                      </cell>
                      <cell><space quantity="10" unit="character"/></cell>
                      <cell>
                         <figure rend="portraitsmall center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild från Aftonstjärnan<lb/>och ut mot baksidan</note>
                         </figure>
                      </cell>
                      <cell><space quantity="10" unit="character"/></cell>
                      <cell>
                         <figure rend="portraitlarge left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på när öppning<lb/>från trapphus till C-sal muras igen</note>
                         </figure>
                      </cell>
                   </row>
@@ -683,13 +699,13 @@
             <row>  
                <cell>
                   <figure rend="portraitmedium left">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på Aftonstjärnans <lb/>fasad som är delvis riven</note>
                   </figure>
                </cell>  
                <cell><space quantity="30" unit="character"/></cell>       
                <cell>
                   <figure rend="landscapemedium left">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på befintligt<lb/>trappräcka i trapphuset</note>
                   </figure>
 					   Bef. trappräcke i trapphuset.
                </cell>
@@ -715,7 +731,7 @@
             <row>  
                <cell>
                   <figure rend="landscapelarge left">
-                     <note type="figdesc">Bild på Aftonstjärnan</note>
+                     <note type="figdesc">Ritning på Aftonstjärnans fasad mot söder</note>
                   </figure>
                </cell>  
                <cell>
@@ -737,7 +753,7 @@
                <cell><space quantity="90" unit="character"/></cell>  
          <cell> 
             <figure rend="portraitmedium center">
-               <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+               <note type="figdesc">Bild på<lb/>ny öppning till B-salen</note>
             </figure>
             Nyöppning till B-salen
          </cell>  
@@ -747,7 +763,7 @@
             <row>  
                <cell>
                   <figure rend="rectangular left">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på en gammal<lb/>ingång till trapphuset</note>
                   </figure>
                   En gammal ingång till
                   <lb/>trapphuset på gården mot öster, steg av helheten
@@ -778,13 +794,13 @@
          <row> 
             <cell>
                <figure rend="center">
-                  <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <note type="figdesc">Bild på när makadam<lb/>lägg som grund för nytt<lb/>bjälklag av betong</note>
                </figure> 
             </cell>
             <cell><space quantity="30" unit="character"/></cell>  
             <cell>
                <figure rend="center">
-                  <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <note type="figdesc">Bild på trappinfästningar<lb/>i det utrivna trapphuset</note>
                </figure>
                </cell>
             </row>
@@ -823,7 +839,7 @@
                <cell><space quantity="30" unit="character"/></cell> 
                <cell>
                   <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på genomgång via<lb/>ventil i källaren</note>
                   </figure>
                  Genomgång via en ventil i
                  <lb/>källaren
@@ -832,21 +848,21 @@
             <row>
                <cell>
                   <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på <lb/>inmätning av kantbalken</note>
                   </figure>
                   Inmätning av kantbalken	
                </cell>
                <cell><space quantity="30" unit="character"/></cell> 
                <cell>
                   <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på rör<lb/>till ny wc på gården</note>
                   </figure>
                   Nya wc ute på gården	
                </cell>
                <cell><space quantity="10" unit="character"/></cell> 
                <cell>
                   <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på rör till<lb/>nya handikappswc i trapphuset</note>
                   </figure>
                   Handikappwc’t i trapp-
 						<lb/>huset
@@ -872,7 +888,7 @@
                <row> 
                   <cell>
                      <figure rend="center">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Bild på dränering<lb/>och stuprör</note>
                      </figure>
                      drän. o. stuprör i plattan
                   </cell>
@@ -882,14 +898,14 @@
                   <cell>
                      <space quantity="2" unit="line"/>
                      <figure rend="center">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Skiss över<lb/>dränering utmed kantbalk</note>
                      </figure>
                      Skiss dränering utmed kantbalk		
                   </cell>
                   <cell><space quantity="10" unit="character"/></cell> 
                   <cell>
                      <figure rend="center">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Skiss med mått<lb/>över nya wc-gården</note>
                      </figure>
                      Skiss – mått väggar nya wc-gården
                   </cell>
@@ -914,14 +930,14 @@
          <row> 
             <cell>
                <figure rend="center">
-                  <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <note type="figdesc">Bild på<lb/>makadam på hela gården</note>
                </figure>
                makadam på hela gården			
                </cell>
                <cell><space quantity="20" unit="character"/></cell> 
                <cell>
                <figure rend="center">
-                  <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <note type="figdesc">Bild på portgången<lb/>till Aftonstjärnan</note>
                </figure>
                portgång med lutning 1:10 – går bra!
             </cell>
@@ -943,18 +959,18 @@
          <table>
             <row>
                <cell>
-                  <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <figure rend="portraitmedium center">
+                     <note type="figdesc">Bild på<lb/>kantelementen</note>
                   </figure>
-                     Carl-Einar mit Puzzleträume på 
+                  kantelementen / på plats
                </cell>  
                <cell><space quantity="20" unit="character"/></cell> 
                <cell>
-                  <figure rend="center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                  <figure rend="portraitmedium center">
+                     <note type="figdesc">Bild på affisch från<lb/> Carl-Einar Häckners<lb/>föreställning i Berlin</note>
                   </figure>   
-                  Scheinbar Varité i Berlin
-               <lb/>kantelementen / på plats		
+                  Carl-Einar mit Puzzleträume på 
+                 <lb/>Scheinbar Varité i Berlin	
               </cell>  	
             </row>
              </table>   
@@ -973,7 +989,7 @@
                <cell><space quantity="50" unit="character"/></cell>   	
                <cell>
                   <figure rend="landscapemedium center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på<lb/>form och kantisolering</note>
                   </figure> 
                </cell>   
                <cell>
@@ -989,14 +1005,14 @@
             <row>
                <cell>
                   <figure rend="portraitmedium center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på<lb/>frigolite/markisol på plats</note>
                   </figure> 
                   Ett lager <corr>frigolit</corr>/markisol. på plats
                </cell>
                <cell><space quantity="20" unit="character"/></cell>   
                <cell>
                   <figure rend="landscapelarge center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Ritning på<lb/>VA-ritning till grundplan</note>
                   </figure> 
                   VA-ritning/grundplan
                </cell>  
@@ -1040,6 +1056,7 @@
                <row>
                   <cell><space quantity="100" unit="character"/></cell>   
                   <cell>
+                     <space quantity="3" unit="line"/>
                      Kantbalken 
                      <lb/>  <g ref="#right-arrow"/>
                   </cell>
@@ -1047,7 +1064,7 @@
                      Sol på morgonen med skurar
                      <lb/> <space quantity="17" unit="character"/> under e.m.
                      <figure rend="landscapelarge center">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Bild på<lb/>kantbalken</note>
                      </figure> 
                   </cell>
                </row>
@@ -1056,14 +1073,14 @@
                   <row>
                      <cell>
                         <figure rend="portraitlarge center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på<lb/>kantbalken mot Bostadsbolaget</note>
                         </figure> 
                         Kantbalken mot Bostadsbolaget	
                      </cell>
                      <cell><space quantity="5" unit="character"/></cell>   
                      <cell>
                         <figure rend="portraitlarge center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på person som förbereder <lb/>för dragning av elen i gammal rökkanal</note>
                         </figure> 
                         Danne förbereder för dragning av
                         <lb/>elen i gammal rökkanal 
@@ -1075,7 +1092,7 @@
                      </cell>
                      <cell>
                         <figure rend="landscapelarge center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på<lb/>ytterhörn i kantbalken</note>
                         </figure> 
                      </cell>
                   </row>
@@ -1104,7 +1121,7 @@
                      <row>
                         <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>när golvvärme dras</note>
                            </figure> 
                            golvvärmen dras på	
                            <lb/>tisdag kväll	
@@ -1112,7 +1129,7 @@
                         <cell><space quantity="10" unit="character"/></cell>  
                         <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på eldrör<lb/>som dras i gammal rökkanal</note>
                            </figure> 
                            Elrör dras upp i  gammal
                            <lb/>rökkanal	
@@ -1120,7 +1137,7 @@
                         <cell><space quantity="10" unit="character"/></cell>  
                         <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>svetsplattan i östra gaveln</note>
                            </figure> 
                            svetsplattan i hörnet – gavel öster
                         </cell>
@@ -1131,21 +1148,21 @@
                         <cell><space quantity="48" unit="character"/></cell>   
                         <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>person som drar VP-rör</note>
                            </figure> 
                            Danne drar VP-rör	
                         </cell>
                         <cell><space quantity="5" unit="character"/></cell>   
                         <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på två personer<lb/>som gjuter kantbalkar</note>
                            </figure> 
                            kantbalkar gjuts på
                         </cell>
                         <cell><space quantity="2" unit="character"/></cell>  
                         <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på tre personer<lb/>som gjuter kantbalkar</note>
                            </figure> 
                            onsdag i solsken
                         </cell>
@@ -1171,27 +1188,27 @@
                <row>
                   <cell>
                      <figure rend="portraitmedium left">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Bild på när person drar VP-röre<lb/>till uttag i golv vid pelare</note>
                      </figure> 
                      Danne drar VP rör till uttag
                      <lb/>i golv vid varje pelare
                      </cell>
                      <cell>
                         <figure rend="landscapelarge right">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Sammansättning av bilder och ritning</note>
                         </figure> 
                   </cell>
                </row>
                <row>
                   <cell>
                      <figure rend="portraitmedium left">
-                        <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                        <note type="figdesc">Bild på<lb/>uttag som passas in</note>
                      </figure> 
                      ”uttag passas in”
                   </cell>
                   <cell>
                      <figure rend="right">
-                        <note type="figdesc">Handritad bild<lb/>på Aftonstjärnan</note>
+                        <note type="figdesc">Handritad skiss på detaljer <lb/> för ingjutning av nedfällt uttag i golv </note>
                      </figure> 
                      Detalj för ingjutn. av nedfällt uttag i golv
                   </cell>
@@ -1209,14 +1226,14 @@
                   <row>
                      <cell>
                         <figure rend="portraitmedium left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på fyra personer<lb/>som gjuter golvet</note>
                         </figure> 
                         Sista gjutningen!
                      </cell>
                      <cell><space quantity="30" unit="character"/></cell>
                      <cell>
                         <figure rend="landscapemedium left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på<lb/>nygjutet golv</note>
                         </figure> 
                      </cell>
                   </row>
@@ -1247,13 +1264,13 @@
                   <row>
                      <cell>
                         <figure rend="portraitsmall left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på person som<lb/>arbetar med elen</note>
                         </figure> 
                         </cell>
                         <cell><space quantity="30" unit="character"/></cell>
                         <cell>
                            <figure rend="landscapemedium left">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>armeringsjärn</note>
                            </figure> 
                         </cell>
                      </row>
@@ -1275,13 +1292,13 @@
                   <row>
                      <cell>
                            <figure rend="portraitsmall center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>två personer</note>
                            </figure> 
                         </cell>  
                         <cell><space quantity="40" unit="character"/></cell> 
                         <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på person<lb/>som monterar belysning</note>
                            </figure> 
                         </cell> 
                   </row>
@@ -1304,7 +1321,7 @@
                   <row>
                      <cell>
                            <figure rend="portraitsmall center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på en person som sitter<lb/>och en person som går</note>
                            </figure> 
                            Bertil har ”gett upp” medan
                            <lb/>Rolf funderar!
@@ -1312,7 +1329,7 @@
                         <cell><space quantity="30" unit="character"/></cell> 
                         <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>Rolfs ritning</note>
                            </figure> 
                         </cell> 
                      </row> 
@@ -1335,7 +1352,7 @@
                   <row>
                      <cell>
                            <figure rend="portraitsmall left">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>person</note>
                            </figure> 
                               Roy deklamerar ”Steget”
                               <lb/>som han sedan murar
@@ -1344,7 +1361,7 @@
                      <cell><space quantity="30" unit="character"/></cell> 
                      <cell>
                         <figure rend="portraitmedium left">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på<lb/>en ställning</note>
                         </figure> 
                      </cell> 
                   </row> 
@@ -1365,7 +1382,7 @@
                   <row>
                      <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på ytterhörn<lb/>med ny svettsplatta</note>
                            </figure> 
                            Ytterhörnet med den nya	
                               <lb/>svetsplattan	
@@ -1373,7 +1390,7 @@
                      <cell><space quantity="15" unit="character"/></cell> 
                      <cell>
                         <figure rend="portraitmedium center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på person<lb/>som murar upp lecablock</note>
                         </figure> 
                         Roy murar upp det 
                         <lb/>första lecablocket
@@ -1394,26 +1411,26 @@
                   <row>
                      <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på arbete<lb/>med gjutning av port</note>
                            </figure> 
                      </cell>
                      <cell><space quantity="10" unit="character"/></cell> 
                      <cell>
                         <figure rend="portraitmedium center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på arbete<lb/>med gjutning av port</note>
                         </figure> 
                      </cell>
                      <cell><space quantity="10" unit="character"/></cell> 
                      <cell>
                         <figure rend="portraitmedium center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på arbete<lb/>med gjutning av port</note>
                         </figure>   
                      </cell>
                   </row>
                   <row>
                      <cell>
                            <figure rend="portraitmedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på arbete<lb/>med gjutning av port</note>
                            </figure> 
                      </cell>
                   </row>
@@ -1438,7 +1455,7 @@
                   <row>
                      <cell>
                            <figure rend="landscapemedium center">
-                              <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                              <note type="figdesc">Bild på<lb/>murning av brandmur</note>
                            </figure> 
                      </cell>
                      <cell><space quantity="10" unit="character"/></cell> 
@@ -1458,7 +1475,7 @@
                      <cell><space quantity="10" unit="character"/></cell> 
                      <cell>
                         <figure rend="landscapemedium center">
-                           <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                           <note type="figdesc">Bild på<lb/>saxlift</note>
                         </figure> 
                   </cell>
                   </row>
@@ -1468,19 +1485,19 @@
                         <cell><space quantity="20" unit="character"/></cell> 
                         <cell>
                               <figure rend="landscapemedium center">
-                                 <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                                 <note type="figdesc">Bild på<lb/>murning av brandmur</note>
                               </figure> 
                            </cell>
                            <cell><space quantity="10" unit="character"/></cell> 
                            <cell> 
                               <figure rend="landscapemedium center">
-                                 <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                                 <note type="figdesc">Bild på<lb/>tvättning av fasad</note>
                               </figure> 
                            </cell>   
                            <cell><space quantity="10" unit="character"/></cell> 
                            <cell> 
                               <figure rend="portraitmedium center">
-                                 <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                                 <note type="figdesc">Bild på flera<lb/>personer som fikar</note>
                               </figure> 
                               Yngve, Rolf, Robert, Claes, Elin,
                               <lb/>Helena, Bosse, Bertil, Hilda,
@@ -1492,13 +1509,13 @@
                         <row>
                            <cell>
                                  <figure rend="portraitmedium center">
-                                    <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                                    <note type="figdesc">Bild på<lb/>murning av brandmur</note>
                                  </figure> 
                               </cell> 
                               <cell><space quantity="40" unit="character"/></cell> 
                               <cell> 
                                  <figure rend="landscapemedium center">
-                                    <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                                    <note type="figdesc">Bild på<lb/>portgång till Aftonstjärnan</note>
                                  </figure> 
                               </cell>   
                         </row>
@@ -1530,13 +1547,13 @@
          <row>
             <cell>
                   <figure rend="portraitmedium center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på<lb/>putsning av muren</note>
                   </figure> 
                </cell>
                <cell><space quantity="10" unit="character"/></cell> 
                <cell> 
                   <figure rend="portraitmedium center">
-                     <note type="figdesc">Bild<lb/>på<lb/>Aftonstjärnan</note>
+                     <note type="figdesc">Bild på<lb/>putsning av muren</note>
                   </figure> 
                </cell>   
                <cell><space quantity="10" unit="character"/></cell> 
