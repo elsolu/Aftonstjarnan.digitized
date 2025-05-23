@@ -11,7 +11,7 @@
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
-                <title>DCHM Template: Diplomatic View</title>
+                <title>Aftonstjärnan</title>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous"/>
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
@@ -19,13 +19,12 @@
             </head>
             <body>
                 <header>
-                  <h1>AFTONSTJÄRNAN</h1>
+                  <h1><span class="tiny-star">&#x2726;</span>AFTONSTJÄRNAN<span class="tiny-star">&#x2726;</span> </h1>
                 </header>
 
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> 
                     <a href="dagbok.html">Dagbok ombyggnation</a>
-                    <a href="ritningar.html">Ritningar</a>
                     <a href="galleri.html">Galleri</a>
                 </nav>
 
@@ -59,14 +58,14 @@
                                         <xsl:variable name="facs" select="@facs"/>
                                         <div class="carousel-item">
                                             <div class="d-flex align-items-center justify-content-center position-relative" style="min-height: 600px;">
-
+                                            
                                                 <!-- Vänster pil -->
                                                 <a class="carousel-control-prev" href="#teiCarousel" role="button" data-slide="prev"
                                                    style="position: absolute; left: 10px; z-index: 10;">
                                                     <i class="fas fa-chevron-left fa-3x" style="color: black;"></i>
                                                 </a>
-
-                                                <!-- Bild -->
+                                               
+                                                  <!-- Bild -->
                                                 <img class="img-fluid mx-auto d-block" style="max-width: 80%">
                                                     <xsl:attribute name="src">
                                                         <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
@@ -78,12 +77,13 @@
                                                         <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
                                                     </xsl:attribute>
                                                 </img>
-
+                                                
                                                 <!-- Höger pil -->
                                                 <a class="carousel-control-next" href="#teiCarousel" role="button" data-slide="next"
                                                    style="position: absolute; right: 10px; z-index: 10;">
                                                     <i class="fas fa-chevron-right fa-3x" style="color: black;"></i>
                                                 </a>
+                                            
 
                                             </div>
 
@@ -101,10 +101,10 @@
                             </div>
                         </main>
 
-                    </div> <!-- /.row -->
-                </div> <!-- /.container-fluid -->
+                    </div> 
+                </div> 
 
-                <footer class="container">
+                <footer>
                     <div class="row" id="footer">
                         <div class="col-sm copyright">
                             <div>
