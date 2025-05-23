@@ -8,7 +8,7 @@
          <titleStmt>
 	         <title>WC på svalen – byggdagbok</title>
 
-	         <author>:Lolo Jakobsson</author>)
+	         <author>Lolo Jakobsson</author>
 
             <editor>Tina Nilsson, Elin Lundh, Maja Andersson</editor>
          </titleStmt>
@@ -46,30 +46,24 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <support>Olinjerat spiralblock i A3-format.
-                        </support>
-                        <extent>Totalt 118 sidor, varav 29 med anteckningar.</extent>
+                        <support>Olinjerat spiralblock i A3-format. Framsida av tjockare papper och baksida av kartongliknande papperskvalitet.
                            <dimensions unit="cm">
                               <height>29,5</height>
                               <width>43</width>
                            </dimensions>
+                        </support>
+                        <extent>Totalt 118 sidor, varav 29 med anteckningar.</extent>
                      </supportDesc>
 
-                     <layoutDesc><p>De flesta sidor består av text och bild. Vissa sidor innehåller även ritningar som har skapats digitalt och skrivits ut eller tecknats för hand. 
-
                      <layoutDesc>
-                           <p>
-
-                           </p>
-
+                        <p>
+                           De flesta sidor består av text och bild. Vissa sidor innehåller även ritningar som har skapats digitalt och skrivits ut eller tecknats för hand. 
+                        </p>
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
 
                <history>
-                  <origin>
-                     <p>Skriv ev. om hur och när dagboken uppkom.</p>
-                  </origin>
                   <acquisition>
                      <p>Dagboken ingick i en större samling material om Aftonstjärnan som en privatperson hade samlat ihop. När personen i fråga avled skänktes samlingen till Aftonstjärnan.</p>
                   </acquisition>
@@ -80,7 +74,7 @@
       
          <profileDesc>
             <handNotes>
-               <handNote xml:id="h1" script="cursive" medium="black ink" scope="sole">
+               <handNote xml:id="h1" script="cursive" medium="black ink and pencil" scope="sole">
                      Handskrift av Lolo Jakobsson
                </handNote>
             </handNotes>
@@ -418,6 +412,11 @@
 
          <div type="page" facs="#sida1">
             <head>dAgbok</head>
+
+            <figure rend="landscapelarge center">
+               <note type="figdesc">Kollage med bilder från ombyggnationen av Aftonstjärnan</note>
+            </figure>
+
          </div>
 
    <!-- SIDA TVÅ -->
