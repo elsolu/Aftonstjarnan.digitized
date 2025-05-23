@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
 	         <title>WC på svalen – byggdagbok</title>
+
 	         <author>:Lolo Jakobsson</author>)
+
             <editor>Tina Nilsson, Elin Lundh, Maja Andersson</editor>
          </titleStmt>
 
@@ -15,8 +17,8 @@
             <publisher>Institutionen för biblioteks- och informationsvetenskap vid Högskolan i Borås</publisher>
             <pubPlace>Borås</pubPlace>
 	         <date when="2025-05">Maj 2025</date>
-	         <availability>Publicerad med tillstånd från författarens efterlevande. Originaldagboken finns hos Aftonstjärnans Kulturförening, Lindholmen, Göteborg.</availability>	 
-         <publicationStmt>
+	         <availability><p>Publicerad med tillstånd från författarens efterlevande. Originaldagboken finns hos Aftonstjärnans Kulturförening, Lindholmen, Göteborg.</p></availability>	 
+         </publicationStmt>
 
          <sourceDesc>
 	         <msDesc>
@@ -25,20 +27,18 @@
 		               <address>
 		                  <street>Plåtslagaregatan 2</street>
 		                  <postCode>417 57</postCode>
-                        <name>Göteborg</name>
-                        <name>Sverige</name>
+                        <settlement>Göteborg</settlement>
+                        <country>Sverige</country>
                      </address>
                   </repository>
-                  <settlement>Göteborg</settlement>
-                  <country><Sverige/country>
                </msIdentifier>
             
                <msContents>
                   <msItem>
                      <title>dAgbok</title>
                      <author>Lolo Jakobsson</author>
-                     <date when="2009">20 april t.o.m. 12 juni 2009</date>
-                     <textLang mainLang=”sv”>Svenska</textLang>
+                     <docDate>20 april t.o.m. 12 juni 2009</docDate>
+                     <textLang mainLang="sv">Svenska</textLang>
                      <note>Dagbok som dokumenterar ombyggnationen av kulturcentret Aftonstjärnan på Lindholmen i Göteborg år 2009.</note>
                   </msItem>
                </msContents>
@@ -54,7 +54,14 @@
                               <width>43</width>
                            </dimensions>
                      </supportDesc>
+
                      <layoutDesc><p>De flesta sidor består av text och bild. Vissa sidor innehåller även ritningar som har skapats digitalt och skrivits ut eller tecknats för hand. 
+
+                     <layoutDesc>
+                           <p>
+
+                           </p>
+
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
@@ -67,45 +74,30 @@
                      <p>Dagboken ingick i en större samling material om Aftonstjärnan som en privatperson hade samlat ihop. När personen i fråga avled skänktes samlingen till Aftonstjärnan.</p>
                   </acquisition>
                </history>
-            <msDesc>
+            </msDesc>
          </sourceDesc>
-
+      </fileDesc>
+      
          <profileDesc>
             <handNotes>
                <handNote xml:id="h1" script="cursive" medium="black ink" scope="sole">
-               Hand of Lolo Jakobsson
+                     Handskrift av Lolo Jakobsson
                </handNote>
             </handNotes>
             <particDesc>
                <listPerson>
                   <person xml:id="p1">
                      <persName>Lolo Jakobsson</persName>
-                     <note>Author of the handwritten text</note>
+                     <note>Författare av handskriven text</note>
                   </person>
                </listPerson>
             </particDesc>
          </profileDesc>
-      </fileDesc>
 
       <xenoData>
              <!-- HÄR SKA METADATA FRÅN EXIFTOOL IN ???-->
       </xenoData>
 
-      <profileDesc>
-    <handNotes>
-      <handNote xml:id="h1" script="cursive" medium="black ink" scope="sole">
-       Handskrift av Lolo Jakobsson
-      </handNote>
-    </handNotes>
-    <particDesc>
-      <listPerson>
-        <person xml:id="p1">
-          <persName>Lolo Jakobsson</persName>
-          <note>Författare av handskriven text</note>
-        </person>
-      </listPerson>
-    </particDesc>
-  </profileDesc>
    </teiHeader>
 
    <facsimile>
@@ -161,7 +153,7 @@
 
       <surface xml:id="sida6">
          <figure>
-            <label>2009-04-24</label>
+            <label>Dagboksanteckning från 24 april 2009.</label>
             <figDesc>Dagboksanteckning från 24 april 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090424.jpeg"/>
          </figure>
@@ -171,7 +163,7 @@
 
       <surface xml:id="sida7">
          <figure>
-            <label>2009-04-27</label>
+            <label>agboksanteckning från 27 april 2009.</label>
             <figDesc>Dagboksanteckning från 27 april 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090427.jpeg"/>
          </figure>
@@ -181,7 +173,7 @@
 
       <surface xml:id="sida8">
          <figure>
-            <label>2009-04-28</label>
+            <label>Dagboksanteckning från 28 april 2009.</label>
             <figDesc>Dagboksanteckning från 28 april 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090428.jpeg"/>
          </figure>
@@ -191,7 +183,7 @@
 
       <surface xml:id="sida9">
          <figure>
-            <label>2009-04-29/30</label>
+            <label>Dagboksanteckning från 29 och 30 april 2009.</label>
             <figDesc>Dagboksanteckning från 29 och 30 april 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090429-30.jpeg"/>
          </figure>
@@ -201,7 +193,7 @@
 
       <surface xml:id="sida10">
          <figure>
-            <label>2009-05-04</label>
+            <label>Dagboksanteckning från 4 maj 2009.</label>
             <figDesc>Dagboksanteckning från 4 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090504.jpeg"/>
          </figure>
@@ -211,7 +203,7 @@
 
       <surface xml:id="sida11">
          <figure>
-            <label>2009-05-05</label>
+            <label>Dagboksanteckning från 5 maj 2009.</label>
             <figDesc>Dagboksanteckning från 5 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090505.jpeg"/>
          </figure>
@@ -221,7 +213,7 @@
 
       <surface xml:id="sida12">
          <figure>
-            <label>2009-05-06</label>
+            <label>Dagboksanteckning från 6 maj 2009.</label>
             <figDesc>Dagboksanteckning från 6 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090506.jpeg"/>
          </figure>
@@ -231,7 +223,7 @@
 
       <surface xml:id="sida13">
          <figure>
-            <label>2009-05-07</label>
+            <label>Dagboksanteckning från 7 maj 2009.</label>
             <figDesc>Dagboksanteckning från 7 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090507.jpeg"/>
          </figure>
@@ -241,7 +233,7 @@
       
       <surface xml:id="sida14">
          <figure>
-            <label>2009-05-11/12</label>
+            <label>Dagboksanteckning från 11 och 12 maj 2009.</label>
             <figDesc>Dagboksanteckning från 11 och 12 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090511-12.jpeg"/>
          </figure>
@@ -251,7 +243,7 @@
       
       <surface xml:id="sida15">
          <figure>
-            <label>2009-05-13</label>
+            <label>Dagboksanteckning från 13 maj 2009</label>
             <figDesc>Dagboksanteckning från 13 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090513.jpeg"/>
          </figure>
@@ -261,7 +253,7 @@
       
       <surface xml:id="sida16">
          <figure>
-            <label>2009-05-14/15/18</label>
+            <label>Dagboksanteckning från 14-15 och 18 maj 2009.</label>
             <figDesc>Dagboksanteckning från 14-15 och 18 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090514-15_18.jpeg"/>
          </figure>
@@ -273,7 +265,7 @@
       
       <surface xml:id="sida17">
          <figure>
-            <label>2009-05-19</label>
+            <label>Dagboksanteckning från 19 2009.</label>
             <figDesc>Dagboksanteckning från 19 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090519.jpeg"/>
          </figure>
@@ -283,7 +275,7 @@
       
       <surface xml:id="sida18">
          <figure>
-            <label>2009-05-20</label>
+            <label>Dagboksanteckning från 20 maj 2009.</label>
             <figDesc>Dagboksanteckning från 20 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090520.jpeg"/>
          </figure>
@@ -293,7 +285,7 @@
       
       <surface xml:id="sida19">
          <figure>
-            <label>2009-05-25</label>
+            <label>Dagboksanteckning från 25 maj 2009.</label>
             <figDesc>Dagboksanteckning från 25 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090525.jpeg"/>
          </figure>
@@ -303,7 +295,7 @@
       
       <surface xml:id="sida20">
          <figure>
-            <label>2009-05-26</label>
+            <label>Dagboksanteckning från 26 maj 2009.</label>
             <figDesc>Dagboksanteckning från 26 maj 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090526.jpeg"/>
          </figure>
@@ -313,7 +305,7 @@
       
            <surface xml:id="sida21">
             <figure>
-               <label>2009-05-27</label>
+               <label>Dagboksanteckning från 27 maj 2009.</label>
                <figDesc>Dagboksanteckning från 27 maj 2009.</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090527.jpeg"/>
             </figure>
@@ -324,7 +316,7 @@
       
            <surface xml:id="sida22">
             <figure>
-               <label>2009-05-27</label>
+               <label>Dagboksanteckning från 28 maj 2009.</label>
                <figDesc>Dagboksanteckning från 28 maj 2009.</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090528.jpeg"/>
             </figure>
@@ -336,7 +328,7 @@
       
            <surface xml:id="sida23">
             <figure>
-               <label>2009-05-29</label>
+               <label>Dagboksanteckning från 29 maj 2009.</label>
                <figDesc>Dagboksanteckning från 29 maj 2009.</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090529.jpeg"/>
             </figure>
@@ -347,7 +339,7 @@
       
            <surface xml:id="sida24">
             <figure>
-               <label>2009-06-01</label>
+               <label>Dagboksanteckning från 1 juni 2009.</label>
                <figDesc>Dagboksanteckning från 1 juni 2009.</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090601.jpeg"/>
             </figure>
@@ -358,7 +350,7 @@
       
            <surface xml:id="sida25">
             <figure>
-               <label>2009-06-02</label>
+               <label>Dagboksanteckning från 2 juni 2009.</label>
                <figDesc>Dagboksanteckning från 2 juni 2009.</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090602.jpeg"/>
             </figure>
@@ -369,7 +361,7 @@
 
          <surface xml:id="sida26">
             <figure>
-               <label>2009-06-03/04</label>
+               <label>Dagboksanteckning från 3-4 juni 2009</label>
                <figDesc>Dagboksanteckning från 3-4 juni 2009</figDesc>
                <graphic url="assets/img/documents/dagbok_ombyggnation_20090603-04.jpeg"/>
             </figure>
@@ -379,7 +371,7 @@
 
       <surface xml:id="sida27">
          <figure>
-            <label>2009-06-05</label>
+            <label>Dagboksanteckning från 5 juni 2009</label>
             <figDesc>Dagboksanteckning från 5 juni 2009</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090605.jpeg"/>
          </figure>
@@ -390,7 +382,7 @@
 
          <surface xml:id="sida28">
          <figure>
-            <label>2009-06-08</label>
+            <label>Dagboksanteckning från 8 juni 2009</label>
             <figDesc>Dagboksanteckning från 8 juni 2009</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090608.jpeg"/>
          </figure>
@@ -400,7 +392,7 @@
    <!-- SIDA TJUGONIO -->
    <surface xml:id="sida29">
          <figure>
-            <label>2009-06-09</label>
+            <label>Dagboksanteckning från 9 juni 2009.</label>
             <figDesc>Dagboksanteckning från 9 juni 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090609.jpeg"/>
          </figure>
@@ -410,7 +402,7 @@
     <!-- SIDA TRETTIO -->
 <surface xml:id="sida30">
          <figure>
-            <label>2009-06-10/11/12</label>
+            <label>Dagboksanteckning från 10-12 juni 2009.</label>
             <figDesc>Dagboksanteckning från 10-12 juni 2009.</figDesc>
             <graphic url="assets/img/documents/dagbok_ombyggnation_20090610-12.jpeg"/>
          </figure>

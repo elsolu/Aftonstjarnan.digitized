@@ -32,7 +32,6 @@
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> 
                     <a href="dagbok.html">Dagbok ombyggnation</a> 
-                    <a href="ritningar.html">Ritningar</a> 
                     <a href="galleri.html">Galleri</a> 
                     </nav>
                     
@@ -81,6 +80,8 @@
                         </div>
                     </div>
                 </main>
+
+                
                 <footer>
                 <div class="row" id="footer">
                   <div class="col-sm copyright">

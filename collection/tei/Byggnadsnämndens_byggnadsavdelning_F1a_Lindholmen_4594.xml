@@ -10,17 +10,20 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</title>
-        <author>xxx</author>
+        <title>Ritning till Föreningen Aftonstjernans Nybyggnad å tomten No 39li </title>
+        <respstmt>
+         <resp>Created by</resp>
+         <name>Thorsten Forsberg</name>
+        </respstmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Aftonstjärnan</publisher>
         <date>2007-2009</date>
       </publicationStmt>
       <sourceDesc>
-   <p>
-      Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
-   </p>
+         <p>
+            Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
+         </p>
   </sourceDesc>
     </fileDesc>
 
