@@ -41,6 +41,18 @@ nav a:hover {
   color: rgb(74, 73, 73);
 }
 
+a {
+  color: #000; 
+  text-decoration: none; 
+  font-size: 14px;
+  margin: 0 2vw;
+}
+
+a:hover {
+  color: rgb(74, 73, 73);
+}
+
+
 h2 {
     font-size: 14px;
     text-align: left;
@@ -49,6 +61,7 @@ h2 {
 
 h3 {
     font-weight: bold;
+    font-size: 14px;
     padding: 1vw;
     
 }
@@ -87,6 +100,7 @@ footer {
 
 .row {
     padding: 1vw;
+    height: auto;
 }
 
 

@@ -10,20 +10,19 @@
     <html lang="sv" xml:lang="sv">
       <head>
         <meta charset="UTF-8"/>
-        <title>Galleri</title>
+        <title>Aftonstjärnan</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
         <link rel="stylesheet" href="assets/css/desktop.css"/>
       </head>
       <body>
         <header>
-          <h1>AFTONSTJÄRNAN</h1>
+          <h1><span class="tiny-star">&#x2726;</span>AFTONSTJÄRNAN<span class="tiny-star">&#x2726;</span></h1>
         </header>
 
         <nav id="sitenav">
           <a href="index.html">Hem</a> 
           <a href="dagbok.html">Dagbok ombyggnation</a> 
-          <a href="ritningar.html">Ritningar</a>
           <a href="galleri.html">Galleri</a>
         </nav>
 

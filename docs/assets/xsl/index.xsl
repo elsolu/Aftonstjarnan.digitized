@@ -26,7 +26,7 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                      <span class="tiny-star">&#x2726;</span>AFTONSTJÄRNAN<span class="tiny-star">&#x2726;</span>
                     </h1>
                 </header>
                 <nav id="sitenav">
@@ -37,11 +37,8 @@
                     </nav>
                     
                 <main id="manuscript">
-                    <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
-                            <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                 <article id="collection">
                                     <xsl:for-each select="//tei:surface">
@@ -59,7 +56,6 @@
                                     </xsl:for-each>
                                 </article>
                             </div>
-                            <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="description">
                                   <p>

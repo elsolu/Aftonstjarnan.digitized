@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:et="http://ns.exiftool.org/1.0/"
+     xmlns:ExifTool="http://ns.exiftool.org/ExifTool/1.0/"
+     xmlns:System="http://ns.exiftool.org/File/System/1.0/"
+     xmlns:File="http://ns.exiftool.org/File/1.0/"
+     xmlns:IFD0="http://ns.exiftool.org/EXIF/IFD0/1.0/"
+     xmlns:Composite="http://ns.exiftool.org/Composite/1.0/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</title>
+        <author>xxx</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Aftonstjärnan</publisher>
+        <date>2007-2009</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Digitaliserade ritningar från ombyggnationen av Aftonstjärnan, 2007-2009.</p>
+      </sourceDesc>
+    </fileDesc>
+
+    <xenoData>
+      <rdf:RDF>
+        <rdf:Description rdf:about="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.tiff"
+                         et:toolkit="Image::ExifTool 13.29">
+          <ExifTool:ExifToolVersion>13.29</ExifTool:ExifToolVersion>
+          <System:FileName>Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.tiff</System:FileName>
+          <System:Directory>.</System:Directory>
+          <System:FileSize>297 MB</System:FileSize>
+          <System:FileModifyDate>2025:04:09 15:43:52+02:00</System:FileModifyDate>
+          <System:FileAccessDate>2025:05:20 14:37:16+02:00</System:FileAccessDate>
+          <System:FileInodeChangeDate>2025:05:20 14:37:15+02:00</System:FileInodeChangeDate>
+          <System:FilePermissions>-rw-r--r--</System:FilePermissions>
+          <File:FileType>TIFF</File:FileType>
+          <File:FileTypeExtension>tif</File:FileTypeExtension>
+          <File:MIMEType>image/tiff</File:MIMEType>
+          <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
+          <IFD0:ImageWidth>11841</IFD0:ImageWidth>
+          <IFD0:ImageHeight>8368</IFD0:ImageHeight>
+          <IFD0:BitsPerSample>8 8 8</IFD0:BitsPerSample>
+          <IFD0:Compression>Uncompressed</IFD0:Compression>
+          <IFD0:PhotometricInterpretation>RGB</IFD0:PhotometricInterpretation>
+          <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
+          <IFD0:SamplesPerPixel>3</IFD0:SamplesPerPixel>
+          <IFD0:RowsPerStrip>1</IFD0:RowsPerStrip>
+          <IFD0:XResolution>400</IFD0:XResolution>
+          <IFD0:YResolution>400</IFD0:YResolution>
+          <IFD0:PlanarConfiguration>Chunky</IFD0:PlanarConfiguration>
+          <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
+          <IFD0:Software>IrfanView</IFD0:Software>
+          <Composite:ImageSize>11841x8368</Composite:ImageSize>
+          <Composite:Megapixels>99.1</Composite:Megapixels>
+        </rdf:Description>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+
+
+   <facsimile>
+      <surface xml:id="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">
+         <figure>
+            <label>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</label>
+            <figDesc>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</figDesc>
+            <graphic url="assets/img/documents/Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="page" facs="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">
+            <p>Transkription av sida 1</p>
+         </div>
+      </body>
+   </text>
+</TEI>
