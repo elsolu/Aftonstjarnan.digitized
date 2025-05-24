@@ -124,7 +124,9 @@
             <editorialDecl> 
                <p>
                Stavfel i texten har korrigerats.
-               Tyngdpunkten har legat på att beskriva layouten. 
+               Layouten på sidan har beskrivits med hjälp av table, row och cell.
+               Grafiska material så som fotografier och skisser har kodast som figure med tillhörande figdesc som beskriver motivet. 
+               Namn som kan identifieras som specifika personer har fått xml:id och taggats med persname.  
                </p>
             </editorialDecl>
 
