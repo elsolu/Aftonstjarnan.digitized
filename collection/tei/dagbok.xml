@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-	         <title>WC på svalen – byggdagbok</title>
+	         <title>Byggdagbok - WC på svalen</title>
 	         <author>Lolo Jakobsson</author>
             <respStmt>
                <resp>Digitaliserat av</resp>
@@ -20,10 +20,9 @@
                      Elin Lundh
                   </name>
             </respStmt>
-
-            <editor>Tina Nilsson, Elin Lundh, Maja Andersson</editor>
          </titleStmt>
 
+<!-- SKA DEN VARA KVAR - OM BORT LÄGG IN HB NÅGON ANNANSTANS REPSTMT?-->
          <publicationStmt>
             <publisher>Institutionen för biblioteks- och informationsvetenskap vid Högskolan i Borås</publisher>
             <pubPlace>Borås</pubPlace>
@@ -57,7 +56,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <support>Olinjerat spiralblock i A3-format. Framsida av tjockare papper och baksida av kartongliknande papperskvalitet.
+                        <support>Olinjerat spiralblock i A3-format. Framsida av tjockare <material>papper</material> och baksida av kartongliknande papperskvalitet.
                            <dimensions unit="cm">
                               <height>29,5</height>
                               <width>43</width>
@@ -91,18 +90,51 @@
             </handNotes>
             <particDesc>
                <listPerson>
-                  <person xml:id="p1">
+                  <person xml:id="lolo">
                      <persName>Lolo Jakobsson</persName>
-                     <note>Författare av handskriven text</note>
+                     <note>Författare av handskriven text </note>
+                     <occupation>Arkitekt</occupation>
                   </person>
+
+                   <person xml:id="bertil">
+                     <persName>Bertil Nolander</persName>
+                     <note>Aktiv i kulturföreningen Aftonstjärnan</note>
+                  </person>
+
+                     <person xml:id="kent">
+                        <persName ref ="http://viaf.org/viaf/73117850">Kent Andersson</persName>
+                        <birth when="1933-12-02"/>
+                        <death when="2005-11-03"/>
+                        <occupation>Skådespelare, manusförfattare och dramatiker</occupation>
+                     </person>
+
+                     <person xml:id="ceh">
+                        <persName ref ="http://viaf.org/viaf/422146284357115330927">Carl-Einar Häckner</persName>
+                        <birth when="1969-10-08"/>
+                        <occupation>Trollkarl och komiker</occupation>
+                     </person>
+
                </listPerson>
             </particDesc>
          </profileDesc>
+
+  
+
+         <encodingDesc>
+            <editorialDecl> 
+               <p>
+               Stavfel i texten har korrigerats.
+               Tyngdpunkten har legat på att beskriva layouten. 
+               </p>
+            </editorialDecl>
+
+         </encodingDesc>
 
       <xenoData>
              <!-- HÄR SKA METADATA FRÅN EXIFTOOL IN ???-->
       </xenoData>
 
+     
    </teiHeader>
 
    <facsimile>
@@ -441,7 +473,7 @@
                         <lb/>SKYDDSROND med FP och riventreprenör
                         <lb/>Dannes installationer stänger av el. i trapphuset
                         <lb/><add place="below">mot gården</add>
-                        <lb/>BN fotodokumentation av gård och trapphus
+                        <lb/><persName ref="bertil">BN</persName> fotodokumentation av gård och trapphus
                         </p>
 
                         <space quantity="3" unit="line"/>
@@ -669,7 +701,7 @@
                      <lb/>och mycket pollen.
                      <lb/>
                      <lb/>Trapphuset sågas isär med ”storklingan”.
-                     <lb/>Lolo o. Bertil mäter och räknar för
+                     <lb/><persName ref="lolo">Lolo</persName> o. <persName ref="bertil">Bertil</persName> mäter och räknar för
                      <lb/>att hissen skall få plats med rätt
                      <lb/>utrymningsmått!		
                      </p>		
@@ -708,7 +740,7 @@
                <row>          
                   <cell>
                      <p>Mån. 27/4 <space quantity="10" unit="character"/> Veckan börjar med Byggsamråd hos kommunen.
-                     <lb/>Rickard Eld, Bernt Flodihn, Lolo, Bertil. Det mesta går bra men 2 punkter måste
+                     <lb/>Rickard Eld, Bernt Flodihn, <persName ref="lolo">Lolo</persName> , <persName ref="bertil">Bertil</persName>. Det mesta går bra men 2 punkter måste
                      <lb/>ses över:  <space quantity="5" unit="character"/>1. Avvattning av glastak 2. Brandklassning av stålkonstruktion
                      <lb/>
                      <lb/>Rivningen intensifieras!<space quantity="10" unit="character"/> Eftermiddagsmöte med sprinklerkonsult, NVS
@@ -754,7 +786,7 @@
             <table>
                <row>          
                   <cell>
-               <p>Rivning av rest. Trapphusvägg och murstock. LoB. Plockar 350 tegel-
+               <p>Rivning av rest. Trapphusvägg och murstock. <persName ref="lolo">L</persName>o<persName ref="bertil">B</persName>. Plockar 350 tegel-
                <lb/>stenar som kan användas för ilagning av mur mot fasad. 
                <lb/>Tog fram utformning av trappräcke tillsammans med Erik S. / SG.
                <lb/>Träff med Godhemsgatans plåt för ilagning av plåttak och ändring
@@ -1024,7 +1056,7 @@
             <table>
                <row> 
                   <cell>
-               <p>Betong – och markisol. påbörjas.! (LJ o. BN i Berlin och ser CEA.)</p>
+               <p>Betong – och markisol. påbörjas.! (<persName ref="lolo">LJ</persName> o. <persName ref="bertil">BN</persName> i Berlin och ser <persName ref="ceh">CEH</persName>.)</p>
                </cell>
             </row>
          </table>
@@ -1041,7 +1073,7 @@
                   <figure rend="portraitmedium center">
                      <note type="figdesc">Bild på affisch från<lb/> Carl-Einar Häckners<lb/>föreställning i Berlin</note>
                   </figure>   
-                  Carl-Einar mit Puzzleträume på 
+                  <persName ref="ceh">Carl-Einar</persName> mit Puzzleträume på 
                  <lb/>Scheinbar Varité i Berlin	
               </cell>  	
             </row>
@@ -1252,7 +1284,7 @@
                   <cell>
                   <p>Armering av plattan och dragning av el till resp båge.
                   <lb/>Kvalitetsansvarig Bernt Flodihn på plats och besiktigade armering m.m. – ok!
-                  <lb/><space quantity="30" unit="character"/>Bertil har snickrat väggar i blivande soprum
+                  <lb/><space quantity="30" unit="character"/><persName ref="bertil">Bertil</persName> har snickrat väggar i blivande soprum
                   <lb/><space quantity="30" unit="character"/>i källare. </p>
                   </cell>
                </row>
@@ -1317,7 +1349,7 @@
     
          <div type="page" facs="#sida21">
             <head><space quantity="15" unit="character"/> Onsdag 27/5</head>
-               <p>Bertil och Danne drar el ut till portgången armatur.
+               <p><persName ref="bertil">Bertil</persName> och Danne drar el ut till portgången armatur.
                <lb/>Betongarbetena pågår med formsättning av sockel m.m. 
                </p>
          </div>
@@ -1396,7 +1428,7 @@
                            <figure rend="portraitsmall center">
                               <note type="figdesc">Bild på en person som sitter<lb/>och en person som går</note>
                            </figure> 
-                           Bertil har ”gett upp” medan
+                           <persName ref="bertil">Bertil</persName> har ”gett upp” medan
                            <lb/>Rolf funderar!
                         </cell> 
                         <cell><space quantity="30" unit="character"/></cell> 
@@ -1415,10 +1447,10 @@
          <div type="page" facs="#sida25">
             <head><space quantity="10" unit="character"/>Tisdag 2 juni</head>
                <p>Muraren Roy murar igen rökkanalen när han
-               <lb/>inte deklamerar Kents dikter.
+               <lb/>inte deklamerar <persName ref="#kent">Kents</persName> dikter.
                <lb/>Plåtslagaren Matias, Gårda Plåtslageri, mäter och förbereder
                <lb/>ilagningen av plåttaket.
-               <lb/>Lolo o Bertil kontrollmäter de nya lägena för svetsplattorna
+               <lb/><persName ref="lolo">Lolo</persName> o <persName ref="bertil">Bertil</persName> kontrollmäter de nya lägena för svetsplattorna
                <lb/>– ok! </p>
                
                <table>
@@ -1573,7 +1605,7 @@
                                  <note type="figdesc">Bild på flera<lb/>personer som fikar</note>
                               </figure> 
                               Yngve, Rolf, Robert, Claes, Elin,
-                              <lb/>Helena, Bosse, Bertil, Hilda,
+                              <lb/>Helena, Bosse, <persName ref="bertil">Bertil</persName>, Hilda,
                               <lb/>Lavinia, Inger fikar. 
                            </cell>   
                      </row>
@@ -1610,9 +1642,9 @@
          <head><space quantity="15" unit="character"/>Torsdag 11 juni</head>
          <p>
            Roy, Sebbe o. Mikael slätputsar insidan av muren.
-           <lb/>Lolo o Bertil målar träfasaden en andra gång samt fönstren 1 ggr.
+           <lb/><persName ref="lolo">Lolo</persName> o <persName ref="bertil">Bertil</persName> målar träfasaden en andra gång samt fönstren 1 ggr.
            <lb/>På kvällen skrapar Yngve, Tomas och Erica färdigt i porten.
-           <lb/>Lolo putslagar skador i fasaden, Bertil spacklar fönstren.
+           <lb/><persName ref="lolo">Lolo</persName>  putslagar skador i fasaden, <persName ref="bertil">Bertil</persName> spacklar fönstren.
          </p>
        </div>
        <div>
