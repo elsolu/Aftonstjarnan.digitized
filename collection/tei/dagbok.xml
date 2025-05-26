@@ -27,7 +27,9 @@
             <publisher>Institutionen för biblioteks- och informationsvetenskap vid Högskolan i Borås</publisher>
             <pubPlace>Borås</pubPlace>
 	         <date when="2025-05">Maj 2025</date>
-	         <availability><p>Publicerad med tillstånd från författarens efterlevande. Originaldagboken finns hos Aftonstjärnans Kulturförening, Lindholmen, Göteborg.</p></availability>	 
+	         <availability><p>Publicerad med tillstånd från författarens efterlevande. Originaldagboken finns hos Aftonstjärnans Kulturförening, Lindholmen, Göteborg. 
+               Upphovspersonerna bakom bilderna i dagboken har inte med säkerhet kunnat identifieras trots rimliga efterforskningar och bilderna behandlas därför som herrelöst verk 
+               - kontakta oss om ni har mer information om vem som har tagit bilderna.</p></availability>	 
          </publicationStmt>
 
          <sourceDesc>
@@ -1461,7 +1463,7 @@
                            <figure rend="portraitsmall left">
                               <note type="figdesc">Bild på<lb/>person</note>
                            </figure> 
-                              Roy deklamerar ”Steget”
+                              Roy deklamerar<ref target="steget.html">"Steget"</ref>
                               <lb/>som han sedan murar
                               <lb/>in i väggen!
                      </cell>

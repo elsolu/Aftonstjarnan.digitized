@@ -45,7 +45,7 @@ a {
   color: #000; 
   text-decoration: none; 
   font-size: 14px;
-  margin: 0 2vw;
+  margin: 0 0vw;
 }
 
 a:hover {
@@ -66,11 +66,33 @@ h3 {
     
 }
 
+h4 {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1vw;
+    text-align: left;
+    
+}
+
 
 p{
   font-size: 14px;
 }
 
+.dikt {
+  width: 60%;            
+  margin-left: auto;
+  margin-right: auto;    
+  padding-left: 20%;  
+  text-align: left;     
+}
+
+.centered-left-text {
+  width: 60%;            
+  margin-left: auto;
+  margin-right: auto;     
+  text-align: left;     
+}
 
 #details {
   padding: 2vw;

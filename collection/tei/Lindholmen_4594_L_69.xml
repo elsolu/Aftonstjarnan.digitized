@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:et="http://ns.exiftool.org/1.0/"
+     xmlns:ExifTool="http://ns.exiftool.org/ExifTool/1.0/"
+     xmlns:System="http://ns.exiftool.org/File/System/1.0/"
+     xmlns:File="http://ns.exiftool.org/File/1.0/"
+     xmlns:IFD0="http://ns.exiftool.org/EXIF/IFD0/1.0/"
+     xmlns:Composite="http://ns.exiftool.org/Composite/1.0/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ritning till Nybyggnad å Tomten No 39 littra C på Lindholmen </title>
+        <respstmt>
+         <resp>Created by</resp>
+         <name>Thorsten Forsberg</name>
+        </respstmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Högskolan i Borås</publisher>
+        <date>Maj 2025</date>
+      </publicationStmt>
+      <sourceDesc>
+         <p>
+            Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
+         </p>
+  </sourceDesc>
+    </fileDesc>
+
+    <xenoData>
+      <rdf:RDF>
+      <rdf:Description rdf:about='Lindholmen_4594_L_69.jpeg'
+  xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 13.29'
+  xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
+  xmlns:System='http://ns.exiftool.org/File/System/1.0/'
+  xmlns:File='http://ns.exiftool.org/File/1.0/'
+  xmlns:JFIF='http://ns.exiftool.org/JFIF/JFIF/1.0/'
+  xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
+  xmlns:ExifIFD='http://ns.exiftool.org/EXIF/ExifIFD/1.0/'
+  xmlns:Photoshop='http://ns.exiftool.org/Photoshop/Photoshop/1.0/'
+  xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
+ <ExifTool:ExifToolVersion>13.29</ExifTool:ExifToolVersion>
+ <System:FileName>Lindholmen_4594_L_69.jpeg</System:FileName>
+ <System:Directory>.</System:Directory>
+ <System:FileSize>32 MB</System:FileSize>
+ <System:FileModifyDate>2025:05:26 13:36:26+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:26 13:50:52+02:00</System:FileAccessDate>
+ <System:FileInodeChangeDate>2025:05:26 13:50:51+02:00</System:FileInodeChangeDate>
+ <System:FilePermissions>-rw-r--r--</System:FilePermissions>
+ <File:FileType>JPEG</File:FileType>
+ <File:FileTypeExtension>jpg</File:FileTypeExtension>
+ <File:MIMEType>image/jpeg</File:MIMEType>
+ <File:ExifByteOrder>Big-endian (Motorola, MM)</File:ExifByteOrder>
+ <File:CurrentIPTCDigest>d41d8cd98f00b204e9800998ecf8427e</File:CurrentIPTCDigest>
+ <File:ImageWidth>11325</File:ImageWidth>
+ <File:ImageHeight>8811</File:ImageHeight>
+ <File:EncodingProcess>Baseline DCT, Huffman coding</File:EncodingProcess>
+ <File:BitsPerSample>8</File:BitsPerSample>
+ <File:ColorComponents>3</File:ColorComponents>
+ <File:YCbCrSubSampling>YCbCr4:2:0 (2 2)</File:YCbCrSubSampling>
+ <JFIF:JFIFVersion>1.01</JFIF:JFIFVersion>
+ <JFIF:ResolutionUnit>None</JFIF:ResolutionUnit>
+ <JFIF:XResolution>300</JFIF:XResolution>
+ <JFIF:YResolution>300</JFIF:YResolution>
+ <IFD0:PhotometricInterpretation>RGB</IFD0:PhotometricInterpretation>
+ <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
+ <IFD0:XResolution>300</IFD0:XResolution>
+ <IFD0:YResolution>300</IFD0:YResolution>
+ <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
+ <IFD0:Software>IrfanView</IFD0:Software>
+ <ExifIFD:ColorSpace>sRGB</ExifIFD:ColorSpace>
+ <ExifIFD:ExifImageWidth>11325</ExifIFD:ExifImageWidth>
+ <ExifIFD:ExifImageHeight>8811</ExifIFD:ExifImageHeight>
+ <Photoshop:IPTCDigest>d41d8cd98f00b204e9800998ecf8427e</Photoshop:IPTCDigest>
+ <Composite:ImageSize>11325x8811</Composite:ImageSize>
+ <Composite:Megapixels>99.8</Composite:Megapixels>
+</rdf:Description>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+
+  <!--HÄR LÄGGER VI IN NYA BILDER-->
+   <facsimile>
+      <surface xml:id="Lindholmen_4594_L_69"> <!--LÄGG TILL ETT NAMN PÅ BILDEN ETT S.K. ID-->
+         <figure>
+            <label>Lindholmen 4594 L 69</label><!--LÄGG TILL EN LABEL/ETTIKET PÅ BILDEN. FÖRSLAGSVIS SAMMA SOM ID MEN UTAN _ DENNA KOMMER VISAS PÅ HEMSIDAN-->
+            <figDesc>Lindholmen 4594 L 69 </figDesc><!--HÄR GÅR DET ATT LÄGGA TILL EN BESKRIVNING AV BILDEN-->
+            <graphic url="assets/img/documents/Lindholmen_4594_L_69.jpeg"/><!--HÄR LÄNKAR VI TILL BILDEN. VIKTIGT ATT LÄNKEN BLIR RÄTT, KOPIERA OCH ÄNDRA TITEL PÅ BILD: assets/img/documents/TITEL.FORMAT. BILDEN MÅSTE FINNAS I RÄTT MAPP. HUVUDMAPP AFTONSTJÄRNAN > ASSETS > IMG > DOCUMENTS -->
+         </figure>
+      </surface>
+   </facsimile>
+
+   <!--HÄR KAN VI LÄGGA TILL OM VI VILL HA UTÖKAD INFORMATION OM BILDEN-->
+   <text>
+      <body>
+         <div type="page" facs="Lindholmen_4594_L_69">   <!--FACS = SKA VAR ID PÅ BILDEN DU VILL BESKRIVA-->
+            <p>Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad</p> <!-- DENNA TEXTEN KOMMER SYNAS PÅ HEMSIDAN-->
+         </div>
+      </body>
+   </text>
+</TEI>

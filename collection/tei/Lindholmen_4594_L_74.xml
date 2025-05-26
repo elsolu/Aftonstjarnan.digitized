@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:et="http://ns.exiftool.org/1.0/"
+     xmlns:ExifTool="http://ns.exiftool.org/ExifTool/1.0/"
+     xmlns:System="http://ns.exiftool.org/File/System/1.0/"
+     xmlns:File="http://ns.exiftool.org/File/1.0/"
+     xmlns:IFD0="http://ns.exiftool.org/EXIF/IFD0/1.0/"
+     xmlns:Composite="http://ns.exiftool.org/Composite/1.0/">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ritning till FöreningenAftonstjernans Nybyggnad å Tomten No 39 littra C i Kvarteret No VI på Lindholmen </title>
+        <respstmt>
+         <resp>Created by</resp>
+         <name>Thorsten Forsberg</name>
+        </respstmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Högskolan i Borås</publisher>
+        <date>Maj 2025</date>
+      </publicationStmt>
+      <sourceDesc>
+         <p>
+            Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
+         </p>
+  </sourceDesc>
+    </fileDesc>
+
+    <xenoData>
+      <rdf:RDF>
+      <rdf:Description rdf:about='Lindholmen_4594_L_74.jpeg'
+  xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 13.29'
+  xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
+  xmlns:System='http://ns.exiftool.org/File/System/1.0/'
+  xmlns:File='http://ns.exiftool.org/File/1.0/'
+  xmlns:JFIF='http://ns.exiftool.org/JFIF/JFIF/1.0/'
+  xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
+ <ExifTool:ExifToolVersion>13.29</ExifTool:ExifToolVersion>
+ <System:FileName>Lindholmen_4594_L_74.jpeg</System:FileName>
+ <System:Directory>.</System:Directory>
+ <System:FileSize>8.0 MB</System:FileSize>
+ <System:FileModifyDate>2025:05:26 13:37:30+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:26 13:52:31+02:00</System:FileAccessDate>
+ <System:FileInodeChangeDate>2025:05:26 13:52:30+02:00</System:FileInodeChangeDate>
+ <System:FilePermissions>-rw-r--r--</System:FilePermissions>
+ <File:FileType>JPEG</File:FileType>
+ <File:FileTypeExtension>jpg</File:FileTypeExtension>
+ <File:MIMEType>image/jpeg</File:MIMEType>
+ <File:ImageWidth>10123</File:ImageWidth>
+ <File:ImageHeight>5497</File:ImageHeight>
+ <File:EncodingProcess>Baseline DCT, Huffman coding</File:EncodingProcess>
+ <File:BitsPerSample>8</File:BitsPerSample>
+ <File:ColorComponents>3</File:ColorComponents>
+ <File:YCbCrSubSampling>YCbCr4:2:0 (2 2)</File:YCbCrSubSampling>
+ <JFIF:JFIFVersion>1.01</JFIF:JFIFVersion>
+ <JFIF:ResolutionUnit>inches</JFIF:ResolutionUnit>
+ <JFIF:XResolution>300</JFIF:XResolution>
+ <JFIF:YResolution>300</JFIF:YResolution>
+ <Composite:ImageSize>10123x5497</Composite:ImageSize>
+ <Composite:Megapixels>55.6</Composite:Megapixels>
+</rdf:Description>
+      </rdf:RDF>
+    </xenoData>
+  </teiHeader>
+
+  <!--HÄR LÄGGER VI IN NYA BILDER-->
+   <facsimile>
+      <surface xml:id="Lindholmen_4594_L_74"> <!--LÄGG TILL ETT NAMN PÅ BILDEN ETT S.K. ID-->
+         <figure>
+            <label>Lindholmen 4594 L 74</label><!--LÄGG TILL EN LABEL/ETTIKET PÅ BILDEN. FÖRSLAGSVIS SAMMA SOM ID MEN UTAN _ DENNA KOMMER VISAS PÅ HEMSIDAN-->
+            <figDesc>Lindholmen 4594 L 74 </figDesc><!--HÄR GÅR DET ATT LÄGGA TILL EN BESKRIVNING AV BILDEN-->
+            <graphic url="assets/img/documents/Lindholmen_4594_L_74.jpeg"/><!--HÄR LÄNKAR VI TILL BILDEN. VIKTIGT ATT LÄNKEN BLIR RÄTT, KOPIERA OCH ÄNDRA TITEL PÅ BILD: assets/img/documents/TITEL.FORMAT. BILDEN MÅSTE FINNAS I RÄTT MAPP. HUVUDMAPP AFTONSTJÄRNAN > ASSETS > IMG > DOCUMENTS -->
+         </figure>
+      </surface>
+   </facsimile>
+
+   <!--HÄR KAN VI LÄGGA TILL OM VI VILL HA UTÖKAD INFORMATION OM BILDEN-->
+   <text>
+      <body>
+         <div type="page" facs="Lindholmen_4594_L_74">   <!--FACS = SKA VAR ID PÅ BILDEN DU VILL BESKRIVA-->
+            <p>Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad</p> <!-- DENNA TEXTEN KOMMER SYNAS PÅ HEMSIDAN-->
+         </div>
+      </body>
+   </text>
+</TEI>

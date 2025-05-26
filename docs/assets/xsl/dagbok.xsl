@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="xs tei"
@@ -9,6 +10,7 @@
 
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        
         <html lang="en" xml:lang="en">
             <head>
                 <title>Aftonstjärnan</title>
@@ -16,7 +18,7 @@
                 <link rel="stylesheet" href="assets/css/main.css"/>
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous"/>
-            </head>
+              </head>
             <body>
                 <header>
                   <h1><span class="tiny-star">&#x2726;</span>AFTONSTJÄRNAN<span class="tiny-star">&#x2726;</span> </h1>
@@ -57,35 +59,36 @@
                                     <xsl:for-each select="//tei:div[@type='page']">
                                         <xsl:variable name="facs" select="@facs"/>
                                         <div class="carousel-item">
+                                          
+                                            <div class="d-flex align-items-center justify-content-center position-relative" style="min-height: 600px;">
+                                            
+                                                <!-- Vänster pil -->
+                                                <a class="carousel-control-prev" href="#teiCarousel" role="button" data-slide="prev"
+                                                   style="position: absolute; left: 10px; z-index: 10;">
+                                                    <i class="fas fa-chevron-left fa-3x" style="color: black;"></i>
+                                                </a>
+                                               
+                                                  <!-- Bild -->
+                                                <img class="img-fluid mx-auto d-block" style="max-width: 80%">
+                                                    <xsl:attribute name="src">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="title">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                                    </xsl:attribute>
+                                                    <xsl:attribute name="alt">
+                                                        <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                                    </xsl:attribute>
+                                                </img>
+                                                
+                                                <!-- Höger pil -->
+                                                <a class="carousel-control-next" href="#teiCarousel" role="button" data-slide="next"
+                                                   style="position: absolute; right: 10px; z-index: 10;">
+                                                    <i class="fas fa-chevron-right fa-3x" style="color: black;"></i>
+                                                </a>
+                                            
 
-                                        <div class="d-flex align-items-center justify-content-center" style="min-height: 600px;">
-                                        <div style="flex: 0 0 auto; padding: 0 10px;">
-                                            <a class="carousel-control-prev" href="#teiCarousel" role="button" data-slide="prev" style="color: black;">
-                                                <i class="fas fa-chevron-left fa-3x"></i>
-                                            </a>
-                                        </div>
-
-                                      <div style="flex: 1 1 auto; text-align: center;">
-                                          <img class="img-fluid" style="max-width: 80%;">
-                                              <xsl:attribute name="src">
-                                                  <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
-                                              </xsl:attribute>
-                                              <xsl:attribute name="title">
-                                                  <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
-                                              </xsl:attribute>
-                                              <xsl:attribute name="alt">
-                                                  <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
-                                              </xsl:attribute>
-                                          </img>
-                                      </div>
-
-                                      <div style="flex: 0 0 auto; padding: 0 10px;">
-                                          <a class="carousel-control-next" href="#teiCarousel" role="button" data-slide="next" style="color: black;">
-                                              <i class="fas fa-chevron-right fa-3x"></i>
-                                          </a>
-                                      </div>
-                                  </div>
-
+                                            </div>
 
                                             <!-- Transkription -->
                                             <div class="d-flex justify-content-center mt-3 px-3">
@@ -132,6 +135,7 @@
     </xsl:template>
 
    <!-- TEI -->
+    
    <xsl:template match="tei:teiHeader"></xsl:template>
    <xsl:template match="tei:lb"><br/></xsl:template>
    <xsl:template match="tei:head"><h2><xsl:apply-templates/></h2></xsl:template>
@@ -256,6 +260,15 @@
     </xsl:attribute>
     <xsl:apply-templates/>
   </figure>
+</xsl:template>
+
+<xsl:template match="tei:ref">
+  <a>
+    <xsl:attribute name="href">
+      <xsl:value-of select="@target"/>
+    </xsl:attribute>
+    <xsl:apply-templates/>
+  </a>
 </xsl:template>
 
 </xsl:stylesheet>

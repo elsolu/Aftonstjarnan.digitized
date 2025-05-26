@@ -11,7 +11,7 @@
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>
-          <xsl:value-of select="//tei:surface[1]/tei:figure/tei:label"/>
+          <xsl:value-of select="//tei:titleStmt/tei:title"/>
         </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="assets/css/main.css"/>
@@ -19,9 +19,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/css/elevatezoom.min.css"/>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
-        
-
-
       </head>
 
       <body>
@@ -32,12 +29,11 @@
         </header>
 
         <nav id="sitenav">
-            <a href="index.html">Hem</a> 
-            <a href="dagbok.html">Dagbok ombyggnation</a> 
-            <a href="galleri.html">Galleri</a>
+          <a href="index.html">Hem</a> 
+          <a href="dagbok.html">Dagbok ombyggnation</a> 
+          <a href="galleri.html">Galleri</a>
+          <a href="omprojektet.html">Om Projektet</a>
         </nav>
-
-  
 
         <!-- BILD + ZOOM -->
         <main class="container">
@@ -47,22 +43,20 @@
                 <div class="image-wrapper">
                   <img id="zoom-image"
                        src="{//tei:surface[1]/tei:figure/tei:graphic/@url}"
-                       alt="{//tei:surface[1]/tei:figure/tei:label}"
+                       alt="{//tei:titleStmt/tei:title}"
                        data-zoom-image="{//tei:surface[1]/tei:figure/tei:graphic/@url}"/>
                 </div>
               </div>
 
-              <p class="description mt-3">
-                <xsl:value-of select="//tei:surface[1]/tei:figure/tei:figDesc"/>
-              </p>
+              <!-- TITEL SOM RUBRIK UNDER BILD -->
+              <h4 class="image-title mt-3">
+                <xsl:value-of select="//tei:titleStmt/tei:title"/>
+              </h4>
 
-              <!-- BESKRIVNING? -->
-              <xsl:if test="//tei:div[@facs = concat('#', //tei:surface[1]/@xml:id)]">
-                <h3>Beskrivning</h3>
-                <div class="transcription">
-                  <xsl:apply-templates select="//tei:div[@facs = concat('#', //tei:surface[1]/@xml:id)]"/>
-                </div>
-              </xsl:if>
+              <!-- BESKRIVNINGSTEXT FRÅN TEI:DIV (text) UNDER RUBRIKEN -->
+              <div class="description mt-2">
+                <xsl:apply-templates select="//tei:div[@facs = //tei:surface[1]/@xml:id]"/>
+              </div>
             </div>
           </div>
         </main>
@@ -94,5 +88,9 @@
     </html>
   </xsl:template>
 
+  <!-- Mall för p-taggar i texten -->
+  <xsl:template match="tei:p">
+    <p><xsl:apply-templates/></p>
+  </xsl:template>
 
 </xsl:stylesheet>

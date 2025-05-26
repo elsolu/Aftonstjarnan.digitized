@@ -33,6 +33,7 @@
                     <a href="index.html">Hem</a> 
                     <a href="dagbok.html">Dagbok ombyggnation</a> 
                     <a href="galleri.html">Galleri</a> 
+                    <a href="omprojektet.html">Om Projektet</a>
                     </nav>
                     
                 <main id="manuscript">
@@ -64,24 +65,10 @@
                                 </article>
                             </div>
                         </div>
-                        <div class="row">
-                                <div class="col-sm">
-                                    <article id="details">
-                                      <p>
-                                        <strong>Author:</strong><br/>
-                                        <xsl:apply-templates select="//tei:titleStmt/tei:author"/>
-                                      </p>
-                                      <p>
-                                        <strong>Transcription by:</strong><br/>
-                                        <xsl:apply-templates select="//tei:titleStmt/tei:principal"/>
-                                      </p>
-                                    </article>
-                                </div>
-                        </div>
                     </div>
                 </main>
 
-                
+
                 <footer>
                 <div class="row" id="footer">
                   <div class="col-sm copyright">
@@ -91,7 +78,7 @@
                   			</a>
                   		</div>
                   		<div class="copyright_text">
-                         2022 Wout Dillen.
+                         2025
                       </div>
                     </div>
                 </div>

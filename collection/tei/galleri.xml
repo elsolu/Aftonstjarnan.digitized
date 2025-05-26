@@ -16,5 +16,26 @@
     <link>dagbok.html</link>
   </galleribild>
 
+     <galleribild>
+    <id>Lindholmen_4594_L_69</id>
+    <file>Lindholmen_4594_L_69.xml</file>
+    <img>assets/img/documents/Lindholmen_4594_L_69.jpeg</img>
+    <link>Lindholmen_4594_L_69.html</link>
+  </galleribild>
+
+     <galleribild>
+    <id>Lindholmen_4594_L_70</id>
+    <file>Lindholmen_4594_L_70.xml</file>
+    <img>assets/img/documents/Lindholmen_4594_L_70.jpeg</img>
+    <link>Lindholmen_4594_L_70.html</link>
+  </galleribild>
+
+     <galleribild>
+    <id>Lindholmen_4594_L_74</id>
+    <file>Lindholmen_4594_L_74.xml</file>
+    <img>assets/img/documents/Lindholmen_4594_L_74.jpeg</img>
+    <link>Lindholmen_4594_L_74.html</link>
+  </galleribild>
+
   <!-- Lägg till fler ritningar här -->
 </galleri>
