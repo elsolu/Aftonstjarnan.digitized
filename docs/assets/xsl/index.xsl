@@ -15,7 +15,7 @@
         <xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
-                <title>DCHM Template: Home</title>
+                <title>Aftonstjärnan</title>
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                       crossorigin="anonymous"/>
@@ -60,8 +60,7 @@
                                             <xsl:variable name="name" select="//tei:titleStmt/tei:respstmt/tei:name"/>
 
                                             <div class="image-description">
-                                                <h5><strong><xsl:value-of select="$label"/></strong></h5>
-                                                <h5><xsl:value-of select="$name"/></h5>
+                                                <h5><strong><xsl:value-of select="$label"/></strong> <xsl:value-of select="$name"/></h5>
                                                 <h5><xsl:value-of select="$description"/></h5>
                                             </div>
                                         </div>
