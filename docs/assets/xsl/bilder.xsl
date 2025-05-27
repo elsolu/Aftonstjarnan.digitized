@@ -30,7 +30,7 @@
 
         <nav id="sitenav">
           <a href="index.html">Hem</a> 
-          <a href="dagbok.html">Dagbok ombyggnation</a> 
+          <a href="dagbok.html">Byggdagbok</a> 
           <a href="galleri.html">Galleri</a>
           <a href="omprojektet.html">Om Projektet</a>
         </nav>
@@ -48,14 +48,19 @@
                 </div>
               </div>
 
-              <!-- TITEL SOM RUBRIK UNDER BILD -->
-              <h4 class="image-title mt-3">
-                <xsl:value-of select="//tei:titleStmt/tei:title"/>
-              </h4>
+        
+              <!-- LABEL SOM RUBRIK UNDER BILD -->
+        <xsl:variable name="label" select="//tei:surface[1]/tei:figure/tei:label"/>
+        <xsl:variable name="name" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respstmt/tei:name"/>
+
+        <div class="col-md-6 text-left">
+          <h5><strong><xsl:value-of select="$label"/></strong> </h5>
+          <h5><xsl:value-of select="$name"/></h5>
+        </div>
 
               <!-- BESKRIVNINGSTEXT FRÅN TEI:DIV (text) UNDER RUBRIKEN -->
-              <div class="description mt-2">
-                <xsl:apply-templates select="//tei:div[@facs = //tei:surface[1]/@xml:id]"/>
+              <div class="col-md-10 text-left">
+                <h5><xsl:apply-templates select="//tei:div[@facs = //tei:surface[1]/@xml:id]"/></h5>
               </div>
             </div>
           </div>
@@ -88,7 +93,7 @@
     </html>
   </xsl:template>
 
-  <!-- Mall för p-taggar i texten -->
+
   <xsl:template match="tei:p">
     <p><xsl:apply-templates/></p>
   </xsl:template>

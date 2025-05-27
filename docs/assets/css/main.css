@@ -1,7 +1,7 @@
 
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Avenir;
 	line-height: 1.25;
 	font-size: 1vw;
   width: 100%;
@@ -18,7 +18,7 @@ header {
 header h1{
   margin: 0;
   padding: 2vw;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: DM Serif Text; 
 }
 
 nav {
@@ -31,9 +31,9 @@ nav {
 
 nav a {
   color: #000; 
-  text-decoration: none; 
-  font-family: Futura;
-  font-size: 14px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: bold;
   margin: 0 2vw;
 }
 
@@ -47,6 +47,8 @@ a {
   font-size: 14px;
   margin: 0 0vw;
 }
+
+
 
 a:hover {
   color: rgb(74, 73, 73);
@@ -77,6 +79,11 @@ h4 {
 
 p{
   font-size: 14px;
+}
+
+h5{
+  font-size: 11px;
+  color: #393838;
 }
 
 .dikt {

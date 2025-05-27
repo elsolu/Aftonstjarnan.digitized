@@ -22,7 +22,7 @@
       </publicationStmt>
       <sourceDesc>
          <p>
-            Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
+            Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad
          </p>
   </sourceDesc>
     </fileDesc>
@@ -67,7 +67,7 @@
    <facsimile>
       <surface xml:id="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594"> <!--LÄGG TILL ETT NAMN PÅ BILDEN ETT S.K. ID-->
          <figure>
-            <label>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</label><!--LÄGG TILL EN LABEL/ETTIKET PÅ BILDEN. FÖRSLAGSVIS SAMMA SOM ID MEN UTAN _ DENNA KOMMER VISAS PÅ HEMSIDAN-->
+            <label>Ritning till Föreningen Aftonstjernans Nybyggnad 1902</label><!--LÄGG TILL EN LABEL/ETTIKET PÅ BILDEN. FÖRSLAGSVIS SAMMA SOM ID MEN UTAN _ DENNA KOMMER VISAS PÅ HEMSIDAN-->
             <figDesc>Byggnadsnämndens byggnadsavdelning F1a Lindholmen 4594</figDesc><!--HÄR GÅR DET ATT LÄGGA TILL EN BESKRIVNING AV BILDEN-->
             <graphic url="assets/img/documents/Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594.jpeg"/><!--HÄR LÄNKAR VI TILL BILDEN. VIKTIGT ATT LÄNKEN BLIR RÄTT, KOPIERA OCH ÄNDRA TITEL PÅ BILD: assets/img/documents/TITEL.FORMAT. BILDEN MÅSTE FINNAS I RÄTT MAPP. HUVUDMAPP AFTONSTJÄRNAN > ASSETS > IMG > DOCUMENTS -->
          </figure>
@@ -78,7 +78,7 @@
    <text>
       <body>
          <div type="page" facs="Byggnadsnämndens_byggnadsavdelning_F1a_Lindholmen_4594">   <!--FACS = SKA VAR ID PÅ BILDEN DU VILL BESKRIVA-->
-            <p> Arkivbildare: Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad</p> <!-- DENNA TEXTEN KOMMER SYNAS PÅ HEMSIDAN-->
+            Byggnadsnämndens byggnadsavdelning och Regionarkivet för Västra Götalandsregionen och Göteborgs Stad<!-- DENNA TEXTEN KOMMER SYNAS PÅ HEMSIDAN-->
          </div>
       </body>
    </text>

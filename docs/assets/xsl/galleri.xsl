@@ -22,8 +22,9 @@
 
         <nav id="sitenav">
           <a href="index.html">Hem</a> 
-          <a href="dagbok.html">Dagbok ombyggnation</a> 
+          <a href="dagbok.html">Byggdagbok</a> 
           <a href="galleri.html">Galleri</a>
+          <a href="omprojektet.html">Om Projektet</a>
         </nav>
 
         <main class="container">

@@ -26,8 +26,9 @@
 
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> 
-                    <a href="dagbok.html">Dagbok ombyggnation</a>
+                    <a href="dagbok.html">Byggdagbok</a>
                     <a href="galleri.html">Galleri</a>
+                    <a href="omprojektet.html">Om Projektet</a>
                 </nav>
 
             
@@ -116,7 +117,7 @@
                                     <img src="assets/img/logos/by.svg" class="copyright_logo"/>
                                 </a>
                             </div>
-                            <div>2025.</div>
+                            <div> Maja Andersson, Tina Nilsson och Elin Lundh 2025</div>
                         </div>
                     </div>
                 </footer>
