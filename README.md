@@ -7,7 +7,7 @@
 Digitaliseringsprojektet har genomförts inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som är en del av Masterprogrammet i Biblioteks- och Informationsvetenskap vid Högskolan i Borås.
 Projektet har genomförts av Maja Andersson, Tina Nilsson och Elin Lundh i samarbete med Aftonstjärnans Kulturförening.
 
-Besök gärna vår webbplats: länk
+Besök gärna vår [Webbsida](https://elsolu.github.io/Aftonstjarnan.digitized/). 
 
 # Upphovsrätt
 
