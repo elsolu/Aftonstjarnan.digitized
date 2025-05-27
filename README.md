@@ -7,6 +7,8 @@
 Digitaliseringsprojektet har genomförts inom ramen för kursen "Digitalisering för bevarande och tillgänglighet" som är en del av Masterprogrammet i Biblioteks- och Informationsvetenskap vid Högskolan i Borås.
 Projektet har genomförts av Maja Andersson, Tina Nilsson och Elin Lundh i samarbete med Aftonstjärnans Kulturförening.
 
+Besök gärna vår webbplats: länk
+
 # Upphovsrätt
 
 Upphovspersonerna bakom bilderna i dagboken har inte med säkerhet kunnat identifieras trots rimliga efterforskningar och fotograiferna behandlas därför som herrelösa verk. I enstaka fotografier syns personer som eventuellt går att identifiera.
