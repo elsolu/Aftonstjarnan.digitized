@@ -9,8 +9,8 @@ Projektet har genomförts av Maja Andersson, Tina Nilsson och Elin Lundh i samar
 
 # Upphovsrätt
 
-Upphovspersonerna bakom bilderna i dagboken har inte med säkerhet kunnat identifieras trots rimliga efterforskningar och bilderna behandlas därför som herrelöst verk - kontakta oss om ni har mer information om vem som har tagit bilderna.
-
+Upphovspersonerna bakom bilderna i dagboken har inte med säkerhet kunnat identifieras trots rimliga efterforskningar och fotograiferna behandlas därför som herrelösa verk. I enstaka fotografier syns personer som eventuellt går att identifiera.
+Vi har valt att publicera fotografierna ändå. Har du mer information om vem som innehar upphovsrätten eller om du känner igen dig själv och vill att fotot tas ned får webbplatsen du gärna kontakta oss på s2412361@student.hb.se
 
 
 ## Credits
